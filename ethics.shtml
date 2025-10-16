@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ethics and Values · UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Content bubble -->
+    <main class="md:col-span-2">
+      <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+        <article class="w-full space-y-6">
+          <h1 class="text-3xl font-extrabold">Ethics and Values</h1>
+            <p>We aim to support polyamorous people coming from all walks of life. We recognise that polyamory takes many different shapes and forms and we look to cater to them all. Within these, we include all forms of consensual non-monogamy (CNM) where relationships are at the heart of people’s interactions.<p/>
+            <p>We are committed to addressing the needs of polyamorous people and listening to their feedback to shape the organisation. We value input from the community strongly, as we believe that it is fundamental to our mission.<p/>
+            <p>We are aware the community we serve is incredibly diverse. We will serve our community by putting our ethics into practice. These are centred on consent, inclusive adaptability, equity, valuing diversity, intersectionality, and accessibility.<p/>
+            <p>We will create partnerships only with organisations whose ethics and values align with ours, in order to avoid undue influence on our core beliefs.<p/>
+            <p>We exist for the benefit of the polyamorous community, and will maintain this core purpose, reflecting the needs of the current community in our ethics and values, our operations and decision–making, and the composition of any staff, trustees, and other positions.</p>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Page not found · UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Full-width message card -->
+    <main class="md:col-span-2">
+      <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+        <div class="max-w-2xl mx-auto text-center space-y-4">
+          <div class="text-6xl">🧭</div>
+          <h1 class="text-3xl md:text-4xl font-extrabold">We couldn’t find that page (404)</h1>
+          <p class="text-base md:text-lg">
+            The link might be broken, or the page may have moved.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-3 justify-center pt-2">
+            <a href="/" class="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-sky-300 text-white font-semibold shadow hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+              ⤶ Back to homepage
+            </a>
+            <a href="mailto:info@@ukpolyamory.org" class="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-white/70 text-black font-semibold shadow hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+              Contact the organisers
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--#include virtual="/includes/footer.html" -->
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Code of Conduct · UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Content bubble -->
+    <main class="md:col-span-2">
+      <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+        <article class="w-full space-y-6">
+          <h1 class="text-3xl font-extrabold">Code of Conduct</h1>
+
+          <section class="space-y-3">
+            <h2 class="text-2xl font-bold">Incidents</h2>
+            <p>
+              Need to report an incident? Please email the UKPA organisers at
+              <a href="mailto:trustees@ukpolyamory.org" class="underline underline-offset-2 hover:underline-offset-4">
+                trustees@ukpolyamory.org
+              </a>.
+            </p>
+            <p>
+              You can find information about the organisers
+              <a href="/leadership.php" class="underline underline-offset-2 hover:underline-offset-4">on this page</a>.
+            </p>
+          </section>
+
+          <section class="space-y-3">
+            <h2 class="text-2xl font-bold">Code</h2>
+            <p>
+              We, the organisers of the UK Polyamory Association (UKPA), believe that our online spaces—just like our
+              physical spaces—should be free from harassment, bullying and hate.
+            </p>
+            <p>
+              We are dedicated to providing a harassment-free experience for everyone, regardless of gender, gender
+              identity and expression, sexual orientation, disability, neurotype, physical appearance, age, race,
+              ethnicity, nationality, socio-economic status, language, religion or any other characteristic.
+            </p>
+            <p>
+              Everyone who participates in the UKPA has a responsibility to help us create safe online and physical
+              spaces and must agree to this code of conduct. This includes all attendees, organisers, volunteers and sponsors.
+            </p>
+          </section>
+
+          <section class="space-y-3">
+            <h2 class="text-2xl font-bold">Unacceptable behaviour includes (but is not limited to)</h2>
+            <ul class="list-disc pl-6 space-y-1">
+              <li>Offensive verbal comments</li>
+              <li>Deliberate intimidation, bullying, or harassment</li>
+              <li>Stalking and/or following</li>
+              <li>Violence and/or threats of violence</li>
+              <li>Unwelcome sexual attention or physical contact</li>
+              <li>Sharing content or links to content that is illegal, pornographic, or otherwise inappropriate</li>
+              <li>Sustained disruption of talks/sessions</li>
+              <li>Other behaviour deemed inappropriate, offensive, threatening, or harmful</li>
+              <li>Unsolicited and/or persistent private messaging (e.g., direct messages on social platforms)</li>
+            </ul>
+            <p>
+              Instigating or encouraging any of the behaviours above is also unacceptable. If a participant engages in
+              behaviour that violates this code of conduct, the organisers will take action they deem appropriate,
+              including (but not limited to) removing the participant from UKPA activities and/or future events.
+            </p>
+          </section>
+
+          <section class="space-y-3">
+            <h2 class="text-2xl font-bold">Photography and recording</h2>
+            <p>
+              When taking photographs of attendees at events please ensure you gain permission in advance. We will
+              endeavour to make preferences clear (for example via lanyards or other methods).
+            </p>
+          </section>
+
+          <section class="space-y-3">
+            <h2 class="text-2xl font-bold">Conclusion</h2>
+            <p>
+              The UKPA belongs to everyone. Thank you for helping make this a welcoming, inclusive and friendly
+              organisation open to all.
+            </p>
+          </section>
+
+          <section class="space-y-3">
+            <h2 class="text-2xl font-bold">With thanks</h2>
+            <p>We are grateful to the following organisers for publishing their codes of conduct, which helped us improve ours:</p>
+            <ul class="list-disc pl-6 space-y-1">
+              <li><a href="https://www.ukgovcamp.com/code-of-conduct/" target="_blank" rel="noopener" class="underline underline-offset-2 hover:underline-offset-4">UK Gov Camp</a></li>
+              <li><a href="https://www.mozilla.org/en-US/about/governance/policies/participation/" target="_blank" rel="noopener" class="underline underline-offset-2 hover:underline-offset-4">Mozilla Community Participation Guidelines</a></li>
+              <li><a href="https://yougotthis.io/conduct/" target="_blank" rel="noopener" class="underline underline-offset-2 hover:underline-offset-4">YouGotThis Conference</a></li>
+              <li><a href="https://www.transformgov.org.uk/coc.shtml" target="_blank" rel="noopener" class="underline underline-offset-2 hover:underline-offset-4">TransformGov Talks</a></li>
+              
+              
+            </ul>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+  </div>
+</body>
+</html>
+
