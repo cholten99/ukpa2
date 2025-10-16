@@ -1,0 +1,17 @@
+404 page (copy the new TGT one - UPDATE THE config file on the server)
+Footer
+	Leadership page
+	Merch
+	Ethics and Values page
+	Code of Conduct page
+	Privacy Policy page
+Main page
+Header
+	Current socials + blog + newsletter 
+	Membership page
+	Volunteering page (SOMETHING WITH VOLUNTEERS DECK!)
+	Community (NEEDS LOTS OF WORK - REALLY TEST ON MOBILE!)
+	Missions page (UNLESS THIS IS WHERE THE VOLUNTEERS DECK GOES?)
+Countdown
+TEST LOOK AND FEEL ON PC, LAPTOP AND MOBILE IN BOTH ORIENTATIONS
+TEST EVERY SINGLE LINK ON THE SERVER ON PC AND MOBILE

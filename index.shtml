@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inclusion Statement · TransformGov Talks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+    <!-- Header spans both on desktop -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Full-width bubble -->
+    <main class="md:col-span-2">
+      <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+        <!-- Fill bubble width (no max-width clamp) -->
+        <article class="w-full space-y-4">
+          <h1 class="text-2xl font-extrabold">Inclusion Statement</h1>
+            <p>
+              At TransformGov Talks, we are committed to creating spaces where everyone feels welcomed, valued, and respected.
+            </p>
+
+            <p>
+              We celebrate diversity in all its forms, and strive to be allies to LGBTQIA+ communities, people of all genders and gender identities, people with disabilities, neurodivergent people, people of every race, ethnicity, faith, and cultural background, and those from marginalised or under-represented groups.
+            </p>
+
+            <p>
+              We recognise that genuine inclusion requires ongoing effort. We will continue to listen, learn, and adapt so that our events and online spaces are safe, accessible, and supportive for all.
+            </p>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer spans both on desktop -->
+    <!--#include virtual="/includes/footer.html" -->
+  </div>
+</body>
+</html>
+
