@@ -1,10 +1,10 @@
 Header
-	Current socials + blog 
+	Social links 
 	About page (EXPLAIN ASSOC (SEE TGT ABOUT PAGE - NON-PROFIT (LINK TO CH), ETC) AND DO MISSION AKA VOLUNTEERS DECK PRESENTATION)
 	Membership page
 	Volunteering page (SOMETHING WITH VOLUNTEERS DECK!)
 	Community (NEEDS LOTS OF WORK - REALLY TEST ON MOBILE!)
-	Everything for mobile (GET MR G TO DO)
+Everything for mobile (GET MR G TO DO)
 Finish Leadership page
 Countdown
 TEST LOOK AND FEEL ON PC, LAPTOP AND MOBILE IN BOTH ORIENTATIONS
