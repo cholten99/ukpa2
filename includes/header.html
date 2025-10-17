@@ -1,10 +1,10 @@
 <!-- includes/header.html -->
-<header class="col-span-full md:col-span-2 p-3 rounded-lg ukpa-bg-cell overflow-hidden">
+<header class="col-span-full md:col-span-2 p-2 md:p-3 rounded-lg ukpa-bg-cell overflow-hidden">
   <div class="flex flex-wrap items-center justify-between gap-4">
     <!-- Brand -->
     <a href="/" class="flex items-center gap-2 lg:gap-3 shrink-0">
-      <img src="/images/logo.png" alt="UKPA logo" class="h-12 sm:h-16 lg:h-20 rounded" loading="lazy">
-      <span class="text-xl sm:text-2xl lg:text-3xl font-black">UK Polyamory Association</span>
+      <img src="/images/logo.png" alt="UKPA logo" class="h-10 sm:h-14 lg:h-20 rounded" loading="lazy">
+      <span class="text-lg sm:text-2xl lg:text-3xl font-black leading-tight">UK Polyamory Association</span>
     </a>
 
     <!-- Desktop nav (from lg up) -->
@@ -93,7 +93,7 @@
     <!-- Mobile burger (shown until lg) -->
     <button id="nav-toggle"
             class="lg:hidden inline-flex items-center justify-center h-10 w-10 rounded bg-black/5 hover:bg-black/10
-                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
+                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 ml-auto"
             aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/>
@@ -109,9 +109,6 @@
         <li><a class="block px-2 py-1 rounded font-semibold hover:bg-black/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600" href="/membership.shtml">Membership</a></li>
         <li><a class="block px-2 py-1 rounded font-semibold hover:bg-black/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600" href="/volunteering.shtml">Volunteering</a></li>
         <li><a class="block px-2 py-1 rounded font-semibold hover:bg-black/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600" href="/community.shtml">Community</a></li>
-        <li><a class="block px-2 py-1 rounded font-semibold hover:bg-black/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600" href="https://medium.com/@trustees_57837" target="_blank" rel="noopener noreferrer">Blog</a></li>
-        <li><a class="block px-2 py-1 rounded font-semibold hover:bg-black/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600" href="https://www.youtube.com/@UKPolyamoryAssociation" target="_blank" rel="noopener noreferrer">Videos</a></li>
-        <li><a class="block px-2 py-1 rounded font-semibold hover:bg-black/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600" href="https://sites.libsyn.com/534749" target="_blank" rel="noopener noreferrer">Audio</a></li>
         <li>
           <a href="https://uk-polyamory-association.kit.com/6816ee904c" target="_blank" rel="noopener noreferrer"
              class="mt-1 inline-flex w-full items-center justify-center px-4 py-2 rounded-md bg-sky-300 text-white font-semibold shadow hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
@@ -144,6 +141,7 @@
       btn.addEventListener('click', () => {
         const isHidden = menu.classList.toggle('hidden');
         btn.setAttribute('aria-expanded', String(!isHidden));
+        document.body.classList.toggle('overflow-hidden', !isHidden);
       });
     })();
   </script>
