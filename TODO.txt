@@ -1,5 +1,4 @@
-Header
-	Social links (INC MOBILE)
+Header mobile layout
 Pages
 	About page (EXPLAIN ASSOC (SEE TGT ABOUT PAGE - NON-PROFIT (LINK TO CH), ETC) AND DO MISSION AKA VOLUNTEERS DECK PRESENTATION)
 	Membership page
