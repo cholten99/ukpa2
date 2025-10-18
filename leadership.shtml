@@ -137,6 +137,22 @@
             </article>
           </li>
 
+          <li class="h-full" name="Ian">
+            <article class="h-full rounded-2xl bg-white/70 p-4 md:p-5 shadow flex flex-col">
+              <div class="flex items-center gap-4">
+                <img src="/images/us/.jpg" alt="Photo of Ian Tustin"
+                     class="h-20 w-20 md:h-28 md:w-28 rounded-xl object-cover bg-black/10" loading="lazy" />
+                <div>
+                  <h2 class="text-xl md:text-2xl font-black leading-tight">Ian Tustin</h2>
+                  <p class="text-base md:text-lg opacity-80">Financial Oversight</p>
+                </div>
+              </div>
+
+              <p class="mt-4 text-base md:text-lg">
+                <p class="mt-4">TBD.</p> 
+            </article>
+          </li>
+
         </ul>
       </section>
     </main>

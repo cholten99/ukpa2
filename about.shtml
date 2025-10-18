@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Privacy Policy · UK Polyamory Association</title>
+  <title>UK Polyamory Association</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/styles.css" />
@@ -14,69 +14,57 @@
     <!-- Header -->
     <!--#include virtual="/includes/header.html" -->
 
-    <!-- Content bubble -->
+    <!-- Content area spans both columns -->
     <main class="md:col-span-2">
-      <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
-        <article class="w-full space-y-6">
-          <h1 class="text-3xl font-extrabold">Privacy Policy</h1>
+      <!-- Two bubbles: stacked on mobile, side-by-side on desktop -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <!-- Bubble A -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-1">
+          <article class="w-full space-y-4">
+            <img src="/images/about.png" alt="About picture" class="w-full h-auto rounded-xl border-[6px] border-white shadow" loading="lazy">
+          </article>
+        </section>
 
-          <h2 class="text-2xl font-bold">Marketing</h2>
-          <p>
-            The UKPA will never send you marketing materials for anything other than matters directly related to the organisation itself.
+        <!-- Bubble B  -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-2">
+          <article class="w-full space-y-4">
+
+          <h1 class="text-3xl font-extrabold">About the UK Polyamory Association</h1>
+
+          <h2 class="text-2xl font-bold">History</h2>
+          <p class="mt-2">
+          The UKPA was originally founded in 2022 by Giulia Smith, Jenny Wilson, Emily Payne, Grace Withers, Eunice Hung, Jennie Philips and Maxine Green. After actively supporting the community for 3 years the leadership group was experiencing burn-out and it was decided to pause operations until new organisers could be found. In late 2024 David Durant joined the organising committee in a coordinating role and in late 2025 we rebooted the Association with renewed energy!
           </p>
 
-          <h2 class="text-2xl font-bold">What are your data protection rights?</h2>
-          <p>The UKPA would like to make sure you are fully aware of all of your data protection rights. Every person is entitled to the following:</p>
-          <ul class="list-disc pl-6 space-y-1">
-            <li><strong>The right to access</strong> – request a copy of your personal data.</li>
-            <li><strong>The right to rectification</strong> – request that we correct information you believe is inaccurate, or complete information you believe is incomplete.</li>
-            <li><strong>The right to erasure</strong> – request that we erase your personal data.</li>
-            <li><strong>The right to restrict processing</strong> – request that we restrict the processing of your personal data.</li>
-            <li><strong>The right to object</strong> – object to our processing of your personal data.</li>
-            <li><strong>The right to data portability</strong> – request that we transfer the data we have collected to another organisation, or directly to you.</li>
-          </ul>
-          <p>
-            If you make a request, we have one month to respond. To exercise any of these rights, please email
-            <a href="mailto:trustees@ukpolyamory.org" class="underline underline-offset-2 hover:underline-offset-4">
-              trustees@ukpolyamory.org
+          <h2 class="text-2xl font-bold">Legal and Financial Structure</h2>
+          <p class="mt-2">
+            The UK Polyamory Association is a non-profit limited company
+            <a href="https://find-and-update.company-information.service.gov.uk/company/16262003"target="_blank" class="underline underline-offset-2 hover:underline-offset-4">
+              registered at Companies House
+            </a>            
+            . Our 
+            <a href="https://docs.google.com/document/d/1H4w-li2hFDKwblMssGQ5Yel7-I_eQSMjFWyK4IxsVbQ/edit?usp=sharing"target="_blank" class="underline underline-offset-2 hover:underline-offset-4">
+              Articles of Association
+            </a>            
+            commit us to using 100% of any money we collect on supporting the polyamorous community in this country.
+          </p>
+            <p class="mt-2">We have committed to posting our financial records openly once a month 
+            <a href="https://medium.com/@trustees_57837"target="_blank" class="underline underline-offset-2 hover:underline-offset-4">
+              on our blog</a>
+            as part of our "month notes". In addition our financial records will be checked monthly by our external auditor
+            <a href="\leadership.shtml#Ian"target="_blank" class="underline underline-offset-2 hover:underline-offset-4">
+              Ian Tustin
             </a>.
+          <h2 class="text-2xl font-bold">Community</h2>
+          <p class="mt-2">We are very must assisted in our efforts by contributions from the organisers of polyamorous communities throughout the UK via a regular online meetup. If you are in such a position and would like to be part of our leadership support network
+          <a href="mailto:info@ukpolyamory.org"target="_blank" class="underline underline-offset-2 hover:underline-offset-4">
+              please get in touch!
+            </a>
           </p>
-
-          <h2 class="text-2xl font-bold">Cookies</h2>
-          <p>
-            Cookies are text files placed on your computer to collect standard internet log information and visitor behaviour information.
-            Our website does not use cookies. Some third-party services we link to (for example, donation processors) may use minimal cookies.
-            Check your browser settings for further information.
-          </p>
-
-          <h2 class="text-2xl font-bold">Privacy policies of other websites</h2>
-          <p>
-            The UKPA website contains links to other websites. Our privacy policy applies only to our website; if you click on a link to another site,
-            please read their privacy policy.
-          </p>
-
-          <h2 class="text-2xl font-bold">Changes to our privacy policy</h2>
-          <p>
-            The UKPA keeps its privacy policy under regular review and places any updates on this page.
-            This privacy policy was last updated on 6 February 2025.
-          </p>
-
-          <h2 class="text-2xl font-bold">How to contact us</h2>
-          <p>
-            If you have questions about this policy, the data we hold on you, or you would like to exercise your rights, please email
-            <a href="mailto:trustees@ukpolyamory.org" class="underline underline-offset-2 hover:underline-offset-4">
-              trustees@ukpolyamory.org
-            </a>.
-          </p>
-
-          <h2 class="text-2xl font-bold">How to contact the appropriate authority</h2>
-          <p>
-            If you wish to report a complaint, or feel that the UKPA has not addressed your concern in a satisfactory manner, you may contact the
-            Information Commissioner’s Office: <a href="mailto:casework@ico.org.uk"
-            class="underline underline-offset-2 hover:underline-offset-4">casework@ico.org.uk</a>.
-          </p>
-        </article>
-      </section>
+            
+          </article>
+        </section>
+      </div>
     </main>
 
     <!-- Footer -->
