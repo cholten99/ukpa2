@@ -1,5 +1,4 @@
 Pages
-	Community (NEEDS LOTS OF WORK - REALLY TEST ON MOBILE!)
 	Finish Leadership page (Ian, Jeli, Amy)
 Testing
 	TEST LOOK AND FEEL ON PC, LAPTOP AND MOBILE IN BOTH ORIENTATIONS
