@@ -30,7 +30,16 @@
           <article class="w-full space-y-4">
             <h1 class="text-2xl font-extrabold">Volunteer to Help</h1>            
               <p class="mt-2">The UKPA is primarily a membership and volunteer-led organisation. The organising committee is keen and committed but there are only so many hours in the day!</p>
-              <p class="mt-2">We strongly encourage you to look at the list of our potential missions and see which one(s) motivate you to get involved.</p>
+              
+              <a href="https://forms.gle/ihUa8CWSZ3vSqcT16" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center px-4 py-2 rounded-md bg-red-400 text-white font-semibold shadow hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+                Volunteer to Help the UKPA
+              </a>
+              
+              <p class="mt-2">We strongly encourage you to look at the list of our potential missions below and see which one(s) motivate you to get involved.</p>
+              
+              <!--#include virtual="/includes/slideshow.html" -->
+              
               <p class="mt-2">Alternatively, if there is something else you would like the UPKA to focus on that you’d be willing to lead on, please get in touch!</p> 
           
            <a href="https://forms.gle/ihUa8CWSZ3vSqcT16" target="_blank" rel="noopener noreferrer"
@@ -46,6 +55,10 @@
     <!-- Footer -->
     <!--#include virtual="/includes/footer.html" -->
   </div>
+  
+  <!-- Script for slideshow -->
+  <script src="/assets/slideshow.js" defer></script>
+  
 </body>
 </html>
 
