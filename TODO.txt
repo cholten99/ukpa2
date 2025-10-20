@@ -5,19 +5,3 @@ Testing
 	GET ANNIE TO COPY EDIT
 	TEST EVERY SINGLE LINK ON THE SERVER ON PC AND MOBILE
 Countdown (COPY FROM EXISTING! ALSO TEST ON MOBILE!)
-
-          {"src":"/images/slides/UKPA_volunteers_proposals.svg","alt":"Polyamory resources"},
-          {"src":"/images/slides/UKPA_volunteers_proposals(1).svg","alt":"Social media accounts"},
-          {"src":"/images/slides/UKPA_volunteers_proposals(2).svg","alt":"Community building"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(3).svg","alt":"Organising surveys"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(4).svg","alt":"Media monitoring"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(5).svg","alt":"Media relations"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(6).svg","alt":"Partnerships"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(7).svg","alt":"Educational resources"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(8).svg","alt":"Corporate HR resources"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(9).svg","alt":"Polyamory discrimination"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(10).svg","alt":"Events"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(11).svg","alt":"Campaigning"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(12).svg","alt":"Academia and research"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(13).svg","alt":"Data standards"}]',
-          {"src":"/images/slides/UKPA_volunteers_proposals(14).svg","alt":"Support for polyamory in UK law"}]'

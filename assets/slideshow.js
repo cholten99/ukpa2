@@ -1,6 +1,6 @@
 /* /assets/slideshow.js — drop-in with debug instrumentation */
 
-const UKPA_SLIDESHOW_DEBUG = true;
+const UKPA_SLIDESHOW_DEBUG = false;
 function report(msg, extra) {
   console.error('[slideshow]', msg, extra || '');
   if (UKPA_SLIDESHOW_DEBUG) alert(`[slideshow] ${msg}`);
