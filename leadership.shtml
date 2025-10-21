@@ -105,6 +105,8 @@
             </article>
           </li>
 
+<!--
+
           <li class="h-full">
             <article class="h-full rounded-2xl bg-white/70 p-4 md:p-5 shadow flex flex-col">
               <div class="flex items-center gap-4">
@@ -152,6 +154,8 @@
                 <p class="mt-4">TBD.</p> 
             </article>
           </li>
+
+-->
 
         </ul>
       </section>
