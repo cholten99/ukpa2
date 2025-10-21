@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>UK Polyamory Association · Relaunch Countdown</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <main class="grid grid-cols-1 gap-2">
+    <section class="p-6 md:p-10 rounded-2xl ukpa-bg-cell shadow text-center">
+      <!-- Logo -->
+      <img src="/images/logo.png" alt="UK Polyamory Association"
+           class="mx-auto h-16 sm:h-24 lg:h-28 w-auto rounded mb-4" loading="lazy" />
+
+      <!-- Heading -->
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-3">We’re relaunching in…</h1>
+
+      <!-- Countdown -->
+      <div id="countdown"
+           data-target="2025-12-01T16:00:00Z"
+           class="font-extrabold text-5xl md:text-7xl tracking-tight tabular-nums"
+           aria-live="polite" aria-atomic="true">–</div>
+
+      <!-- Newsletter (centered) -->
+      <div class="mt-6 flex justify-center">
+        <div class="w-full max-w-xl">
+          <script async data-uid="6816ee904c" src="https://uk-polyamory-association.kit.com/6816ee904c/index.js"></script>
+        </div>
+      </div>
+
+      <!-- Socials -->
+      <ul class="mt-6 grid grid-cols-4 sm:grid-cols-8 gap-3 place-items-center">
+        <li><a href="https://bsky.app/profile/uk-poly-assoc.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky"><img class="h-8 w-8" src="/images/icons/bluesky.svg" alt=""></a></li>
+        <li><a href="https://www.instagram.com/ukpo.ly/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img class="h-8 w-8" src="/images/icons/instagram.svg" alt=""></a></li>
+        <li><a href="https://www.tiktok.com/@ukpolyamoryassociation" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><img class="h-8 w-8" src="/images/icons/tiktok.svg" alt=""></a></li>
+        <li><a href="https://mastodon.social/@uk_polyamory_association" target="_blank" rel="me noopener noreferrer" aria-label="Mastodon"><img class="h-8 w-8" src="/images/icons/mastodon.svg" alt=""></a></li>
+        <li><a href="https://www.facebook.com/UKPolyAssociation" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img class="h-8 w-8" src="/images/icons/facebook.svg" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/ukpa-trustees-943188331/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img class="h-8 w-8" src="/images/icons/linkedin.svg" alt=""></a></li>
+        <li><a href="https://discord.gg/WRzqJpCFED" target="_blank" rel="noopener noreferrer" aria-label="Discord"><img class="h-8 w-8" src="/images/icons/discord.svg" alt=""></a></li>
+        <li><a href="https://www.youtube.com/@UKPolyamoryAssociation" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img class="h-8 w-8" src="/images/icons/youtube.svg" alt=""></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      const el = document.getElementById('countdown');
+      if (!el) return;
+      const iso = el.getAttribute('data-target');
+      const target = new Date(iso);
+
+      function pad(n) { return String(n).padStart(2, '0'); }
+
+      function tick() {
+        const now = new Date();
+        const diff = target - now;
+        if (isNaN(diff)) { el.textContent = '—'; return; }
+        if (diff <= 0) { el.textContent = "We’re live!"; clearInterval(t); return; }
+
+        const d = Math.floor(diff / (1000*60*60*24));
+        const h = Math.floor(diff / (1000*60*60)) % 24;
+        const m = Math.floor(diff / (1000*60)) % 60;
+        const s = Math.floor(diff / 1000) % 60;
+
+        if (window.matchMedia('(min-width: 768px)').matches) {
+          el.textContent = `${d}d ${pad(h)}h ${pad(m)}m ${pad(s)}s`;
+        } else {
+          el.textContent = `${d}d ${pad(h)}:${pad(m)}:${pad(s)}`;
+        }
+      }
+
+      const t = setInterval(tick, 1000);
+      tick();
+    })();
+  </script>
+</body>
+</html>
+

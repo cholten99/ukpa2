@@ -38,9 +38,11 @@
               
               <p class="mt-2">We strongly encourage you to look at the list of our potential missions below and see which one(s) motivate you to get involved.</p>
               
+              <p class="mt-2">Click on the box below to cycle through the options.</p>
+              
               <!--#include virtual="/includes/slideshow.html" -->
               
-              <p class="mt-2">Alternatively, if there is something else you would like the UPKA to focus on that you’d be willing to lead on, please get in touch!</p> 
+              <p class="mt-2">Alternatively, if there is something else you would like the UPKA to look at that you’d be willing to lead on, please get in touch!</p> 
           
            <a href="https://forms.gle/ihUa8CWSZ3vSqcT16" target="_blank" rel="noopener noreferrer"
          class="inline-flex items-center px-4 py-2 rounded-md bg-red-400 text-white font-semibold shadow hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">

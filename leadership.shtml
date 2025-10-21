@@ -18,7 +18,7 @@
     <main class="md:col-span-2">
     
     <section class="mt-2 p-6 md:p-8 rounded-2xl ukpa-bg-cell shadow">
-        <h1 class="text-3xl font-extrabold mb-4">Who we are</h1>
+        <h1 class="text-3xl font-extrabold mb-4">Who We Are</h1>
 
         <!-- Responsive grid of “bubbles” -->
         <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
@@ -36,7 +36,7 @@
 
               <p class="mt-4 text-base md:text-lg">
               
-                <p class="mt-4">In 2015 I founded the Northamptonshire polyamory and ENM group and have been running regular meetups since then. I became actively involved in the polyamory community soon after coming out in the form of joining various groups online and attending events such as meetups and conventions. I have also acted as an administrator and moderator to various polyamory social and discussion groups on facebook. My previous trustee experience includes being on the board of the Bewley Charitable Trust and I am also a current trustee for The Harry Payne Fund.</p> 
+                <p class="mt-4">In 2015 I founded the Northamptonshire polyamory and ENM group and have been running regular meetups since then. I became actively involved in the polyamory community soon after coming out in the form of joining various groups online and attending events such as meetups and conventions. I have also acted as an administrator and moderator to various polyamory social and discussion groups on Facebook. My previous trustee experience includes being on the board of the Bewley Charitable Trust and I am also a current trustee for The Harry Payne Fund.</p> 
                 <p class="mt-4">I am a bisexual woman, disabled and a single parent. I have been out as polyamorous since 2012 and now also identify as a relationship anarchist.</p>
                 <p class="mt-4">I’m passionate about the polyamorous and CNM community in the UK and raising awareness about non-monogamy and other adjacent issues.</p>
               <!-- Links / socials -->
@@ -78,7 +78,8 @@
               </div>
 
               <p class="mt-4 text-base md:text-lg">
-              <p class="mt-4">I'm primarily a civic technologist having spent much of the last 15 years helping to build and foster organisations such as UK Gov Camp, One Team Gov and TransformGov Talks while managing digital project teams in various parts of the public sector. I've been poly since my teens, long before I knew there was a word for such a thing. I'm proud to be able to donate some of my time to help the UKPA achieve its goals of supporting, representing and advocating on behalf of the broad ethical non-monogamy community in this country. </p>
+              <p class="mt-4">I'm primarily a civic technologist, having spent much of the last couple of decades helping to build and foster organisations such as UK Gov Camp, One Team Gov and TransformGov Talks while managing digital project teams in various parts of the public sector.</p>
+              <p class="mt-4">I've been poly since my teens, long before I knew there was a word for such a thing. I'm proud to be able to donate some of my time to help the UKPA achieve its goals of supporting, representing and advocating on behalf of the broad ethical non-monogamy community in this country. </p>
               <!-- Links / socials -->
               <div class="mt-4 flex flex-wrap items-center gap-3">
                 <a href="https://bsky.app/profile/bowsy.co.uk" target="_blank" rel="noopener"
