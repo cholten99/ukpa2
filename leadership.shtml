@@ -106,6 +106,24 @@
             </article>
           </li>
 
+          <li class="h-full" name="Ian">
+            <article class="h-full rounded-2xl bg-white/70 p-4 md:p-5 shadow flex flex-col">
+              <div class="flex items-center gap-4">
+                <img src="/images/us/Ian.jpeg" alt="Photo of Ian Tustin"
+                     class="h-20 w-20 md:h-28 md:w-28 rounded-xl object-cover bg-black/10" loading="lazy" />
+                <div>
+                  <h2 class="text-xl md:text-2xl font-black leading-tight">Ian Tustin</h2>
+                  <p class="text-base md:text-lg opacity-80">Financial Oversight</p>
+                </div>
+              </div>
+
+              <p class="mt-4 text-base md:text-lg">
+              <p class="mt-4">Hi all, Im Ian from Gloucestershire, I co-host the local poly group with my nesting partner.</p> 
+              <p class="mt-4">My partner and I have been ethically non-monogamous for five years.</p> 
+              <p class="mt-4">During the week I normally have my head buried in a spreadsheet for work & at the weekends I love going on random road trips when I’m not at home tending to our many animals. I’m a bit of a nerd, love Marvel movies and Dungeons & Dragons.</p>
+            </article>
+          </li>
+
 <!--
 
           <li class="h-full">
@@ -132,22 +150,6 @@
                 <div>
                   <h2 class="text-xl md:text-2xl font-black leading-tight">Jeli Rose</h2>
                   <p class="text-base md:text-lg opacity-80">Volunteer</p>
-                </div>
-              </div>
-
-              <p class="mt-4 text-base md:text-lg">
-                <p class="mt-4">TBD.</p> 
-            </article>
-          </li>
-
-          <li class="h-full" name="Ian">
-            <article class="h-full rounded-2xl bg-white/70 p-4 md:p-5 shadow flex flex-col">
-              <div class="flex items-center gap-4">
-                <img src="/images/us/.jpg" alt="Photo of Ian Tustin"
-                     class="h-20 w-20 md:h-28 md:w-28 rounded-xl object-cover bg-black/10" loading="lazy" />
-                <div>
-                  <h2 class="text-xl md:text-2xl font-black leading-tight">Ian Tustin</h2>
-                  <p class="text-base md:text-lg opacity-80">Financial Oversight</p>
                 </div>
               </div>
 
