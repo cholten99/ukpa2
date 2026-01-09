@@ -35,11 +35,8 @@
           <article class="w-full space-y-4">
             <h1 class="text-2xl font-extrabold">Introduction to the UKPA</h1>
             
-            <iframe class="pt-4 w-full overflow-hidden rounded-lg aspect-video"
-              src="https://www.youtube.com/embed/xMGymT8u-D0?si=OfrrtbQrSgpFKZM6"
-              title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/7QUMXyR9p5E?si=WGvf7f_729-TLlx3" title="YouTube video player" frameborder="0"       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
             
           </article>
         </section>
