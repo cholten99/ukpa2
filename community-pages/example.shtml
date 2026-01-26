@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17876605291');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>Community Group Template - UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Content area spans both columns -->
+    <main class="md:col-span-2">
+      <!-- Two bubbles: stacked on mobile, side-by-side on desktop -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+        <!-- Bubble A -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-1">
+          <article class="w-full space-y-4">
+
+        <div class="w-full rounded-xl border-[6px] border-white shadow overflow-hidden">
+          <iframe
+            class="w-full aspect-square"
+            src="https://www.google.com/maps?q=Manchester%20Piccadilly%20Station&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Map showing approximate meetup area">
+          </iframe>
+        </div>
+
+        <p class="text-sm opacity-80">
+          Approximate area shown. Exact venue shared in the group hub for privacy.
+        </p>
+
+        <p class="text-sm">
+          <a
+            href="https://www.google.com/maps?q=Manchester%20Piccadilly%20Station"
+            target="_blank"
+            rel="noopener"
+            class="underline underline-offset-2 hover:underline-offset-4">
+            Open in Google Maps
+          </a>
+        </p>
+
+            <div class="space-y-2">
+              <div class="text-2xl font-bold">Example Polyamory Group</div>
+              <div class="opacity-80">Manchester • Hybrid (in person and online)</div>
+            </div>
+
+            <div class="space-y-2">
+              <a href="#"
+                 target="_blank"
+                 class="block text-center underline underline-offset-2 hover:underline-offset-4">
+                Join / main hub (Facebook / Discord / Meetup)
+              </a>
+              <a href="mailto:organiser@example.org"
+                 class="block text-center underline underline-offset-2 hover:underline-offset-4">
+                Email the organisers
+              </a>
+            </div>
+
+          </article>
+        </section>
+
+        <!-- Bubble B -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-2">
+          <article class="w-full space-y-4">
+
+            <h1 class="text-3xl font-extrabold">Example Polyamory Group (Template)</h1>
+            <p class="mt-2">
+              This is a template page you can copy for individual community groups. Replace the
+              placeholders with real information.
+            </p>
+
+            <!-- 1) At a glance card -->
+            <h2 class="text-2xl font-bold">At a glance</h2>
+            <ul class="mt-2 list-disc pl-6 space-y-2">
+              <li><strong>Type:</strong> Hybrid (in-person + online)</li>
+              <li><strong>Area:</strong> Manchester (city centre-ish)</li>
+              <li><strong>Cadence:</strong> Monthly social + always-on chat</li>
+              <li><strong>Newcomers:</strong> Welcome</li>
+              <li><strong>Vibe:</strong> Friendly, social, low-pressure</li>
+              <li><strong>Cost:</strong> Free (buy your own drinks/snacks)</li>
+              <li><strong>Age:</strong> 18+</li>
+            </ul>
+
+            <!-- 2) How to join -->
+            <h2 class="text-2xl font-bold">How to join</h2>
+            <p class="mt-2">
+              The quickest way to join is via the group’s main hub. If you’re new, say hello in the
+              intro space and a mod will point you to upcoming events.
+            </p>
+            <ul class="mt-4 list-disc pl-6 space-y-2">
+              <li>
+                <a href="#" target="_blank"
+                   class="underline underline-offset-2 hover:underline-offset-4">
+                  Join the Facebook group (placeholder link)
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank"
+                   class="underline underline-offset-2 hover:underline-offset-4">
+                  Join the Discord (placeholder invite)
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank"
+                   class="underline underline-offset-2 hover:underline-offset-4">
+                  Events listing (Meetup / Facebook Events / Eventbrite)
+                </a>
+              </li>
+            </ul>
+            <p class="mt-2">
+              <em>Note:</em> some Discord invites expire. If a link doesn’t work, try the other channel or email the organisers.
+            </p>
+
+            <!-- 3) From the organisers -->
+            <h2 class="text-2xl font-bold">From the organisers</h2>
+            <p class="mt-2">
+              <em>
+                “We’re a welcoming space for polyamorous, ENM and curious folks. We’re not a dating event —
+                think community, conversation, and making friends who get it.”
+              </em>
+              <br />
+              <strong>— Alex, organiser</strong>
+            </p>
+
+            <!-- 4) Events -->
+            <h2 class="text-2xl font-bold">Events</h2>
+
+            <h3 class="text-xl font-bold">In-person meetups</h3>
+            <ul class="mt-2 list-disc pl-6 space-y-2">
+              <li><strong>When:</strong> 2nd Thursday of the month, 7pm–10pm</li>
+              <li><strong>Where:</strong> Near Piccadilly (exact venue shared in the hub)</li>
+              <li><strong>Format:</strong> Drop-in social; optional “newcomers hello” at 7:15pm</li>
+              <li><strong>RSVP:</strong> Appreciated but not required</li>
+            </ul>
+
+            <h3 class="text-xl font-bold">Online</h3>
+            <ul class="mt-2 list-disc pl-6 space-y-2">
+              <li><strong>Platform:</strong> Discord</li>
+              <li><strong>Weekly:</strong> Casual voice chat Wednesdays, 8pm</li>
+            </ul>
+
+            <!-- 5) About / what to expect -->
+            <h2 class="text-2xl font-bold">About / what to expect</h2>
+            <p class="mt-2">
+              This group is a mix of long-time poly folks and people figuring things out. Conversations
+              are typically social and supportive, with occasional structured discussion nights.
+            </p>
+            <ul class="mt-4 list-disc pl-6 space-y-2">
+              <li>Come solo or with a partner/friend</li>
+              <li>No expectation to share personal details</li>
+              <li>It’s fine to be new, nervous, or just listening</li>
+            </ul>
+
+            <!-- 6) Links & channels -->
+            <h2 class="text-2xl font-bold">Links &amp; channels</h2>
+            <ul class="mt-4 list-disc pl-6 space-y-2">
+              <li><strong>Website:</strong> <a href="#" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">example.org</a></li>
+              <li><strong>Main hub:</strong> <a href="#" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">Facebook group</a></li>
+              <li><strong>Chat:</strong> <a href="#" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">Discord invite</a></li>
+              <li><strong>Events:</strong> <a href="#" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">Meetup / FB Events / Eventbrite</a></li>
+              <li><strong>Instagram:</strong> <a href="#" target="_blank" class="underline underline-offset-2 hover:underline-offset-4">@examplepoly</a></li>
+              <li><strong>Contact:</strong> <a href="mailto:organiser@example.org" class="underline underline-offset-2 hover:underline-offset-4">organiser@example.org</a></li>
+            </ul>
+
+            <!-- 7) Media -->
+            <h2 class="text-2xl font-bold">Media</h2>
+            <p class="mt-2">
+              Optional photos or short clips (only with permission). Tap a thumbnail to view it full size.
+            </p>
+
+            <!-- Thumbnail grid -->
+            <div class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-3">
+              <figure class="space-y-2">
+                <a href="https://picsum.photos/seed/ukpa1/1200/900"
+                   class="ukpa-lightbox-trigger block"
+                   data-full="https://picsum.photos/seed/ukpa1/1200/900"
+                   data-caption="Example caption 1: Meetup venue / banner image (placeholder).">
+                  <img
+                    src="https://picsum.photos/seed/ukpa1/480/360"
+                    alt="Thumbnail: Example photo 1"
+                    class="w-full h-auto rounded-xl border-[6px] border-white shadow ukpa-thumb"
+                    loading="lazy"
+                  >
+                </a>
+                <figcaption class="text-sm opacity-80">Venue snapshot</figcaption>
+              </figure>
+
+              <figure class="space-y-2">
+                <a href="https://picsum.photos/seed/ukpa2/1200/900"
+                   class="ukpa-lightbox-trigger block"
+                   data-full="https://picsum.photos/seed/ukpa2/1200/900"
+                   data-caption="Example caption 2: Group graphic / logo (placeholder).">
+                  <img
+                    src="https://picsum.photos/seed/ukpa2/480/360"
+                    alt="Thumbnail: Example photo 2"
+                    class="w-full h-auto rounded-xl border-[6px] border-white shadow ukpa-thumb"
+                    loading="lazy"
+                  >
+                </a>
+                <figcaption class="text-sm opacity-80">Group graphic</figcaption>
+              </figure>
+
+              <figure class="space-y-2">
+                <a href="https://picsum.photos/seed/ukpa3/1200/900"
+                   class="ukpa-lightbox-trigger block"
+                   data-full="https://picsum.photos/seed/ukpa3/1200/900"
+                   data-caption="Example caption 3: Non-identifying meetup moment (placeholder).">
+                  <img
+                    src="https://picsum.photos/seed/ukpa3/480/360"
+                    alt="Thumbnail: Example photo 3"
+                    class="w-full h-auto rounded-xl border-[6px] border-white shadow ukpa-thumb"
+                    loading="lazy"
+                  >
+                </a>
+                <figcaption class="text-sm opacity-80">Meetup moment</figcaption>
+              </figure>
+            </div>
+
+            <!-- Example video (responsive) -->
+            <h3 class="text-xl font-bold mt-6">Example video</h3>
+            <p class="mt-2">
+              This can be an organiser welcome, a “what to expect” explainer, or a short clip from an event (with consent).
+            </p>
+
+            <div class="mt-4">
+              <div class="w-full aspect-video rounded-xl overflow-hidden border-[6px] border-white shadow">
+                <iframe
+                  class="w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Example group intro video"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <!-- 8) Rules, privacy & safety -->
+            <h2 class="text-2xl font-bold">Rules, privacy &amp; safety</h2>
+            <ul class="mt-4 list-disc pl-6 space-y-2">
+              <li><strong>Privacy:</strong> Don’t out people. No screenshots from online spaces without consent.</li>
+              <li><strong>Photos:</strong> Only with explicit consent. Default is no photos.</li>
+              <li><strong>Consent:</strong> Respect boundaries; “no” is a full sentence.</li>
+              <li><strong>Flirting/dating:</strong> Not the focus; keep it respectful and low-pressure.</li>
+              <li><strong>Moderation:</strong> Contact mods via DM in the hub if there’s an issue.</li>
+            </ul>
+
+            <!-- 9) Accessibility & inclusion -->
+            <h2 class="text-2xl font-bold">Accessibility &amp; inclusion</h2>
+            <ul class="mt-4 list-disc pl-6 space-y-2">
+              <li><strong>Step-free access:</strong> Yes / No / Unknown</li>
+              <li><strong>Seating:</strong> Available</li>
+              <li><strong>Noise level:</strong> Moderate (pub/café)</li>
+              <li><strong>Sober-friendly:</strong> Yes (no pressure to drink)</li>
+              <li><strong>Pronouns:</strong> Welcome</li>
+            </ul>
+
+            <!-- 10) Last updated and report changes -->
+            <h2 class="text-2xl font-bold">Last updated &amp; report changes</h2>
+            <p class="mt-2"><strong>Last updated:</strong> 26 January 2026</p>
+            <p class="mt-2">
+              Spot something wrong or out of date?
+              <a href="mailto:info@ukpolyamory.org?subject=Directory%20update%3A%20Example%20Polyamory%20Group"
+                 class="underline underline-offset-2 hover:underline-offset-4">
+                Report a change
+              </a>.
+            </p>
+            <p class="mt-2">
+              <em>Note:</em> This page is informational. UKPA does not run or moderate this group.
+            </p>
+
+          </article>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+  </div>
+
+  <!-- Lightbox overlay -->
+  <div id="ukpaLightbox" class="ukpa-lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <div class="ukpa-lightbox__panel">
+      <button type="button" id="ukpaLightboxClose" class="ukpa-lightbox__close" aria-label="Close image viewer">
+        Close ✕
+      </button>
+      <img id="ukpaLightboxImg" class="ukpa-lightbox__img" alt="" />
+      <div id="ukpaLightboxCaption" class="ukpa-lightbox__caption"></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const lightbox = document.getElementById('ukpaLightbox');
+      const img = document.getElementById('ukpaLightboxImg');
+      const caption = document.getElementById('ukpaLightboxCaption');
+      const closeBtn = document.getElementById('ukpaLightboxClose');
+
+      function openLightbox(fullSrc, capText, altText) {
+        img.src = fullSrc;
+        img.alt = altText || '';
+        caption.textContent = capText || '';
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        closeBtn.focus();
+      }
+
+      function closeLightbox() {
+        lightbox.setAttribute('aria-hidden', 'true');
+        img.src = '';
+        img.alt = '';
+        caption.textContent = '';
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('.ukpa-lightbox-trigger').forEach(a => {
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          const full = a.getAttribute('data-full') || a.getAttribute('href');
+          const cap = a.getAttribute('data-caption') || '';
+          const thumbImg = a.querySelector('img');
+          const alt = thumbImg ? thumbImg.alt : '';
+          openLightbox(full, cap, alt);
+        });
+      });
+
+      closeBtn.addEventListener('click', closeLightbox);
+
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.getAttribute('aria-hidden') === 'false') {
+          closeLightbox();
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
+

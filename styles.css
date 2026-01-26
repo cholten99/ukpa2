@@ -1,1 +1,70 @@
 .ukpa-bg-cell { background-color: #f4f7e9; }
+
+/* ============================================================
+   UKPA Lightbox (for group media thumbnails)
+   ============================================================ */
+
+.ukpa-thumb {
+  cursor: zoom-in;
+}
+
+/* Full-screen overlay */
+.ukpa-lightbox {
+  position: fixed !important;
+  inset: 0;
+  display: none !important;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* Show when aria-hidden is false */
+.ukpa-lightbox[aria-hidden="false"] {
+  display: flex !important;
+}
+
+/* Inner panel that holds close button + image + caption */
+.ukpa-lightbox__panel {
+  width: min(100%, 980px);
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Image scales nicely on mobile */
+.ukpa-lightbox__img {
+  width: 100%;
+  height: auto;
+  max-height: 78vh;
+  object-fit: contain;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Caption styling */
+.ukpa-lightbox__caption {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+/* Close button (big enough for mobile) */
+.ukpa-lightbox__close {
+  align-self: flex-end;
+  border-radius: 9999px;
+  padding: 0.5rem 0.8rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  touch-action: manipulation;
+}
+
+.ukpa-lightbox__close:focus {
+  outline: 3px solid rgba(255, 255, 255, 0.55);
+  outline-offset: 2px;
+}
+
