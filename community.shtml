@@ -55,6 +55,7 @@
             <h1 class="text-2xl font-extrabold">Online communities</h1>          
 
               <ul class="list-disc pl-6 space-y-1">
+                <li><a class="underline underline-offset-2 hover:underline-offset-4" href="http://ukpoly.org/">UK-Poly mailing list</a></li>
                 <li><a class="underline underline-offset-2 hover:underline-offset-4" href="https://discord.gg/WRzqJpCFED">UK Polyamory Discord</a></li>
                 <li><a class="underline underline-offset-2 hover:underline-offset-4" href="https://polyamoryuk.co.uk/">Polyamory UK</a></li>
                 <li><a class="underline underline-offset-2 hover:underline-offset-4" href="https://www.facebook.com/groups/1506144399603746">Polyamory and Relationship Anarchy UK</a></li>
