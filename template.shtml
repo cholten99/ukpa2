@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17876605291');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>Page title – UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+
+</head>
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Content area spans both columns -->
+    <main class="md:col-span-2">
+
+      <!-- Page-level layout grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+        <!-- LEFT / PRIMARY BUBBLE -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-1">
+          <article class="w-full space-y-4">
+            <h1 class="text-2xl font-extrabold">
+              Page heading
+            </h1>
+
+            <p>
+              Optional introductory text.
+            </p>
+
+            <!-- Add more content blocks here -->
+          </article>
+        </section>
+
+        <!-- RIGHT / SECONDARY BUBBLE -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-2">
+          <article class="w-full space-y-4">
+            <h2 class="text-2xl font-extrabold">
+              Secondary heading
+            </h2>
+
+            <p>
+              Main page content goes here.
+            </p>
+
+            <!-- Optional media, lists, sections, etc -->
+          </article>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+
+  </div>
+</body>
+</html>
+

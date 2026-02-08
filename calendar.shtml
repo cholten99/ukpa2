@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17876605291');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>Events – UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+
+</head>
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Content -->
+    <main class="md:col-span-2">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+        <!-- LEFT BUBBLE -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-1">
+          <article class="w-full space-y-6">
+
+            <!-- Calendar image -->
+            <img
+              src="/images/calendar.png"
+              alt="Calendar illustration"
+              class="w-full max-w-xs mx-auto"
+            />
+
+            <h1 class="text-2xl font-extrabold">
+              Events
+            </h1>
+
+            <p>
+              This calendar lists upcoming UK Polyamory Association events.
+              Use the view selector (Week / Month / etc) in the calendar to browse.
+            </p>
+
+            <div class="space-y-2">
+              <h2 class="text-xl font-extrabold">
+                Links
+              </h2>
+
+              <ul class="list-disc pl-6 space-y-1">
+                <li>
+                  <a
+                    class="underline"
+                    href="https://calendar.google.com/calendar/u/0?cid=Y184OGM3OTA1MTFkMzU5NDAyMTE1ZTgxMzhkOTRkMzEyYWUxYTU5NDNkZjdmMWNjMTU1ZGM1ZjRjNTg0ZmI3NzI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+                  >
+                    Open the UKPA public events calendar in Google Calendar
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="underline"
+                    href="https://calendar.google.com/calendar/u/0/r?cid=Y184OGM3OTA1MTFkMzU5NDAyMTE1ZTgxMzhkOTRkMzEyYWUxYTU5NDNkZjdmMWNjMTU1ZGM1ZjRjNTg0ZmI3NzI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+                  >
+                    Add UKPA public events calendar to your Google Calendar
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </article>
+        </section>
+
+        <!-- RIGHT BUBBLE: GOOGLE CALENDAR -->
+        <section class="p-6 rounded-2xl ukpa-bg-cell shadow md:col-span-2">
+          <article class="w-full space-y-4">
+            <h2 class="text-2xl font-extrabold">
+              Upcoming events
+            </h2>
+
+            <div class="w-full overflow-hidden rounded-xl">
+              <iframe
+                src="https://calendar.google.com/calendar/embed?wkst=1&ctz=Europe%2FLondon&showPrint=0&showCalendars=0&src=Y184OGM3OTA1MTFkMzU5NDAyMTE1ZTgxMzhkOTRkMzEyYWUxYTU5NDNkZjdmMWNjMTU1ZGM1ZjRjNTg0ZmI3NzI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+                class="w-full h-[700px] border-0"
+                loading="lazy"
+                scrolling="no">
+              </iframe>
+            </div>
+
+          </article>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+
+  </div>
+</body>
+</html>
+
