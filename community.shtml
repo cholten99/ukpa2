@@ -25,68 +25,123 @@
     <!-- Header -->
     <!--#include virtual="/includes/header.html" -->
 
-    <!-- Content area spans both columns -->
-    <main id='main' class="md:col-span-2">
-      <!-- Two bubbles: stacked on mobile, side-by-side on desktop -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
-        <!-- Bubble A -->
-        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-1 flex flex-col">
-          <article class="w-full space-y-4 flex flex-col flex-1">
-            <h1 class="text-2xl font-extrabold">In Person Meet-Ups</h1>
+    <!-- Content -->
+    <main id="main" class="md:col-span-2">
+      <div class="grid grid-cols-1 gap-2">
 
-            <p class="text-base md:text-lg leading-relaxed">
-              This map shows community-run polyamory meet-ups across the UK. Want to add your group?
-              <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="mailto:info@ukpolyamory.org">Get in touch</a>.
+        <!-- Calendar -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+          <article class="space-y-4">
+            <h1 class="text-2xl font-extrabold">Community events calendar</h1>
+
+            <p>
+              A calendar of UK polyamory meet-ups and community events.
+              If you run an event and would like it included, please
+              <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold"
+                 href="mailto:info@ukpolyamory.org">get in touch</a>.
             </p>
 
-            <!-- Map container grows to balance card height on desktop -->
-            <div class="mt-2 rounded-xl overflow-hidden ring-1 ring-black/10 flex-1 min-h-[280px] md:min-h-[360px]">
-              <iframe
-                src="https://www.google.com/maps/d/u/2/embed?mid=1-DMA1a7oa47L3FAcPMsgq_HtY1IzZ2M&ehbc=2E312F&noprof=1"
-                class="w-full h-full border-0"
-                loading="lazy"
-                title="UK Polyamory Association meet-ups map"
-                referrerpolicy="no-referrer-when-downgrade"
-                allowfullscreen>
-              </iframe>
-            </div>
-
-            <p class="text-sm opacity-80">
-              If the map is slow to load, that’s normal — Google embeds are chunky.
-            </p>
+            <a
+              href="/calendar.shtml"
+              class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+            >
+              View the community calendar
+            </a>
           </article>
         </section>
 
-        <!-- Bubble B -->
-        <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-1 flex flex-col">
-          <article class="w-full space-y-4 flex flex-col flex-1">
-            <h2 class="text-2xl font-extrabold">Online communities</h2>
+        <!-- Map + Online -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+          <!-- Map -->
+          <section class="p-8 rounded-2xl ukpa-bg-cell shadow flex flex-col">
+            <article class="space-y-4 flex flex-col flex-1">
+              <h2 class="text-2xl font-extrabold">In Person Meet-Ups</h2>
+
+              <p>
+                This map shows community-run polyamory meet-ups across the UK.
+              </p>
+
+              <div class="mt-2 rounded-xl overflow-hidden ring-1 ring-black/10 flex-1 min-h-[280px] md:min-h-[360px]">
+                <iframe
+                  src="https://www.google.com/maps/d/u/2/embed?mid=1-DMA1a7oa47L3FAcPMsgq_HtY1IzZ2M&ehbc=2E312F&noprof=1"
+                  class="w-full h-full border-0"
+                  loading="lazy"
+                  title="UK Polyamory Association meet-ups map"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen>
+                </iframe>
+              </div>
+
+              <p class="text-sm opacity-80">
+                If the map is slow to load, that’s normal — Google embeds are chunky.
+              </p>
+            </article>
+          </section>
+
+          <!-- Online -->
+          <section class="p-8 rounded-2xl ukpa-bg-cell shadow flex flex-col">
+            <article class="space-y-4 flex flex-col flex-1">
+              <h2 class="text-2xl font-extrabold">Online communities</h2>
+
+              <ul class="list-disc pl-6 space-y-1">
+                <li>
+                  <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="http://ukpoly.org/">
+                    UK-Poly mailing list
+                  </a>
+                </li>
+                <li>
+                  <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://discord.gg/WRzqJpCFED">
+                    UK Polyamory Discord
+                  </a>
+                </li>
+                <li>
+                  <a class="underline underline-offset-2 hover:underline-offset-4" href="https://polyamoryuk.co.uk/">
+                    Polyamory UK
+                  </a>
+                </li>
+                <li>
+                  <a class="underline underline-offset-2 hover:underline-offset-4" href="https://www.facebook.com/groups/1506144399603746">
+                    Polyamory and Relationship Anarchy UK
+                  </a>
+                </li>
+                <li>
+                  <a class="underline underline-offset-2 hover:underline-offset-4" href="https://www.facebook.com/groups/polyenmuk">
+                    Polyamorous/ENM UK
+                  </a>
+                </li>
+              </ul>
+
+              <div class="flex-1"></div>
+            </article>
+          </section>
+        </div>
+
+        <!-- International -->
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+          <article class="space-y-4">
+            <h2 class="text-2xl font-extrabold">Polyamory organisations in other countries</h2>
+
+            <p>
+              A starting point for people looking for polyamory organisations beyond the UK.
+            </p>
 
             <ul class="list-disc pl-6 space-y-1">
               <li>
-                <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="http://ukpoly.org/">
-                  UK-Poly mailing list
+                <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold"
+                   href="https://www.open-love.org"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  OPEN (Organization for Polyamory and Ethical Non-monogamy) — USA
                 </a>
               </li>
-              <li>
-                <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://discord.gg/WRzqJpCFED">
-                  UK Polyamory Discord
-                </a>
-              </li>
-              <li><a class="underline underline-offset-2 hover:underline-offset-4" href="https://polyamoryuk.co.uk/">Polyamory UK</a></li>
-              <li><a class="underline underline-offset-2 hover:underline-offset-4" href="https://www.facebook.com/groups/1506144399603746">Polyamory and Relationship Anarchy UK</a></li>
-              <li><a class="underline underline-offset-2 hover:underline-offset-4" href="https://www.facebook.com/groups/polyenmuk">Polyamorous/ENM UK</a></li>
+
+              <li class="opacity-80">More organisations coming soon…</li>
             </ul>
-
-            <p class="text-sm opacity-80">
-              If you run a UK-focused group and want it listed here,
-              <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="mailto:info@ukpolyamory.org">drop us a note</a>.
-            </p>
-
-            <!-- Spacer so this card can comfortably match the map card on taller screens -->
-            <div class="flex-1"></div>
           </article>
         </section>
+
       </div>
     </main>
 
