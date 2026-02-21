@@ -28,7 +28,7 @@
     <!--#include virtual="/includes/header.html" -->
 
     <!-- Content -->
-    <main class="md:col-span-2">
+    <main id='main' class="md:col-span-2">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
 
         <!-- LEFT BUBBLE -->

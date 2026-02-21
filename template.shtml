@@ -28,7 +28,7 @@
     <!--#include virtual="/includes/header.html" -->
 
     <!-- Content area spans both columns -->
-    <main class="md:col-span-2">
+    <main id='main' class="md:col-span-2">
 
       <!-- Page-level layout grid -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2">

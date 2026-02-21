@@ -26,7 +26,7 @@
     <!--#include virtual="/includes/header.html" -->
 
     <!-- Content area spans both columns -->
-    <main class="md:col-span-2">
+    <main id='main' is="main" class="md:col-span-2">
       <!-- Two bubbles: stacked on mobile, side-by-side on desktop -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
         <!-- Bubble A -->
