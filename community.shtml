@@ -67,315 +67,42 @@
             <!-- Featured: groups with pages on this site -->
             <section class="space-y-2 pt-2 border-t border-black/10">
               <h3 class="text-xl font-bold">Groups with pages on this site</h3>
-              <ul class="list-disc pl-6 space-y-1 text-base md:text-lg">
-                <li>
-                  <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold"
-                     href="/community-pages/Yorkshire-OPEN.shtml">
-                    Yorkshire O.P.E.N
-                  </a>
-                  — Yorkshire — In person and online.
-                </li>
-              </ul>
-            </section>
 
-            <!-- Directory table -->
-            <section class="space-y-2 pt-2 border-t border-black/10">
-              <h3 class="text-xl font-bold">Directory of groups on other platforms</h3>
-              <p class="text-sm opacity-80">
-                On mobile, swipe left/right on the table to see all columns.
+              <p class="text-base md:text-lg leading-relaxed">
+                Some groups have full information pages hosted directly on the UKPA site.
               </p>
 
-              <div class="overflow-x-auto rounded-xl ring-1 ring-black/10 bg-white/10">
-                <table class="min-w-[720px] w-full text-left text-base md:text-lg">
-                  <thead class="bg-white/20">
-                    <tr>
-                      <th class="py-3 px-4 font-bold">Group</th>
-                      <th class="py-3 px-4 font-bold">Region</th>
-                      <th class="py-3 px-4 font-bold">Format</th>
-                    </tr>
-                  </thead>
-
-                  <tbody class="align-top">
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="http://ukpoly.org/" target="_blank" rel="noopener noreferrer">UK-Poly mailing list</a></td>
-                      <td class="py-2 px-4">National</td>
-                      <td class="py-2 px-4">Online</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://discord.gg/WRzqJpCFED" target="_blank" rel="noopener noreferrer">UK Polyamory Discord</a></td>
-                      <td class="py-2 px-4">National</td>
-                      <td class="py-2 px-4">Online</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://polyamoryuk.co.uk/" target="_blank" rel="noopener noreferrer">Polyamory UK</a></td>
-                      <td class="py-2 px-4">National</td>
-                      <td class="py-2 px-4">Online</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/1506144399603746" target="_blank" rel="noopener noreferrer">Polyamory and Relationship Anarchy UK</a></td>
-                      <td class="py-2 px-4">National</td>
-                      <td class="py-2 px-4">Online</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/polyenmuk" target="_blank" rel="noopener noreferrer">Polyamorous/ENM UK</a></td>
-                      <td class="py-2 px-4">National</td>
-                      <td class="py-2 px-4">Online</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/692772462343077" target="_blank" rel="noopener noreferrer">Alternative poly UK</a></td>
-                      <td class="py-2 px-4">UK</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.bigfeelings.uk/community-social-enm" target="_blank" rel="noopener noreferrer">Big Feelings ENM</a></td>
-                      <td class="py-2 px-4">London</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/3537317482969782/" target="_blank" rel="noopener noreferrer">Bournemouth Polyamory Group</a></td>
-                      <td class="py-2 px-4">Bournemouth</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/128246394323/" target="_blank" rel="noopener noreferrer">Brighton ENM &amp; Polyamory Society</a></td>
-                      <td class="py-2 px-4">Brighton</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/620520908071128" target="_blank" rel="noopener noreferrer">Bristol &amp; South West Polyamory Social Group</a></td>
-                      <td class="py-2 px-4">Bristol</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/cambridge-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Cambridge Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Cambridge</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/cardiff-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Cardiff Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Cardiff</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/269193923749502/" target="_blank" rel="noopener noreferrer">Chesterfield UK polyamory</a></td>
-                      <td class="py-2 px-4">Chesterfield</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/184827718596952/" target="_blank" rel="noopener noreferrer">Cheshire polyamory</a></td>
-                      <td class="py-2 px-4">Cheshire</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/231971491493613/" target="_blank" rel="noopener noreferrer">Coventry Polyamory</a></td>
-                      <td class="py-2 px-4">Coventry</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/derby-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Derby Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Derby</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/1966245451632292/" target="_blank" rel="noopener noreferrer">Devon Polyamory Social Group</a></td>
-                      <td class="py-2 px-4">Devon</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/270693983308518/" target="_blank" rel="noopener noreferrer">Dorset Polyamory</a></td>
-                      <td class="py-2 px-4">Dorset</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/edinburgh-polyamory/" target="_blank" rel="noopener noreferrer">Edinburgh Polyamory</a></td>
-                      <td class="py-2 px-4">Edinburgh</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/enm-polyamory-london/" target="_blank" rel="noopener noreferrer">ENM &amp; Polyamory London</a></td>
-                      <td class="py-2 px-4">London</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/essex-polyamory/" target="_blank" rel="noopener noreferrer">Essex Polyamory</a></td>
-                      <td class="py-2 px-4">Essex</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/207741704588041/" target="_blank" rel="noopener noreferrer">Glasgow Polyamory</a></td>
-                      <td class="py-2 px-4">Glasgow</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/802859223265415/" target="_blank" rel="noopener noreferrer">Greater Manchester Polyamory</a></td>
-                      <td class="py-2 px-4">Manchester</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/guildford-surrey-polyamory/" target="_blank" rel="noopener noreferrer">Guildford &amp; Surrey Polyamory</a></td>
-                      <td class="py-2 px-4">Surrey</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/522933881839419/" target="_blank" rel="noopener noreferrer">Hull Polyamory</a></td>
-                      <td class="py-2 px-4">Hull</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/kent-polyamory/" target="_blank" rel="noopener noreferrer">Kent Polyamory</a></td>
-                      <td class="py-2 px-4">Kent</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/leeds-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Leeds Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Leeds</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/leicester-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Leicester Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Leicester</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/211423106187421/" target="_blank" rel="noopener noreferrer">Lincolnshire Polyamory</a></td>
-                      <td class="py-2 px-4">Lincolnshire</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/liverpool-polyamory/" target="_blank" rel="noopener noreferrer">Liverpool Polyamory</a></td>
-                      <td class="py-2 px-4">Liverpool</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/london-polyamory/" target="_blank" rel="noopener noreferrer">London Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">London</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/manchester-polyamory/" target="_blank" rel="noopener noreferrer">Manchester Polyamory</a></td>
-                      <td class="py-2 px-4">Manchester</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/milton-keynes-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Milton Keynes Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Milton Keynes</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/newcastle-polyamory/" target="_blank" rel="noopener noreferrer">Newcastle Polyamory</a></td>
-                      <td class="py-2 px-4">Newcastle</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/695491145030595/" target="_blank" rel="noopener noreferrer">Norfolk Polyamory</a></td>
-                      <td class="py-2 px-4">Norfolk</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/1489960024801084/" target="_blank" rel="noopener noreferrer">North East Polyamory</a></td>
-                      <td class="py-2 px-4">North East</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/nottingham-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Nottingham Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Nottingham</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/343176213689970/" target="_blank" rel="noopener noreferrer">Oxford Polyamory</a></td>
-                      <td class="py-2 px-4">Oxford</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/307360613957931/" target="_blank" rel="noopener noreferrer">Portsmouth Polyamory</a></td>
-                      <td class="py-2 px-4">Portsmouth</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/ReadingPolyamory/" target="_blank" rel="noopener noreferrer">Reading Polyamory</a></td>
-                      <td class="py-2 px-4">Reading</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/ScotlandPolyamory/" target="_blank" rel="noopener noreferrer">Scotland Polyamory</a></td>
-                      <td class="py-2 px-4">Scotland</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/sheffield-polyamory-meetup/" target="_blank" rel="noopener noreferrer">Sheffield Polyamory Meetup</a></td>
-                      <td class="py-2 px-4">Sheffield</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/503579637584193/" target="_blank" rel="noopener noreferrer">Southampton Polyamory</a></td>
-                      <td class="py-2 px-4">Southampton</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/1504445529861529/" target="_blank" rel="noopener noreferrer">South Wales Polyamory</a></td>
-                      <td class="py-2 px-4">South Wales</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/904043070143783/" target="_blank" rel="noopener noreferrer">Suffolk Polyamory</a></td>
-                      <td class="py-2 px-4">Suffolk</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/285511373137862/" target="_blank" rel="noopener noreferrer">Surrey Polyamory</a></td>
-                      <td class="py-2 px-4">Surrey</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/339161857155615/" target="_blank" rel="noopener noreferrer">Sussex Polyamory</a></td>
-                      <td class="py-2 px-4">Sussex</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/WestMidlandsPolyamory/" target="_blank" rel="noopener noreferrer">Warwickshire Polyamory</a></td>
-                      <td class="py-2 px-4">Warwickshire</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/WestMidlandsPolyamory/" target="_blank" rel="noopener noreferrer">West Midlands Polyamory</a></td>
-                      <td class="py-2 px-4">West Midlands</td>
-                      <td class="py-2 px-4">In-person</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/817145375584924/" target="_blank" rel="noopener noreferrer">West Yorkshire Polyamory</a></td>
-                      <td class="py-2 px-4">West Yorkshire</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/501497820643346/" target="_blank" rel="noopener noreferrer">Wigan Polyamory</a></td>
-                      <td class="py-2 px-4">Wigan</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.meetup.com/york-polyamory/" target="_blank" rel="noopener noreferrer">York Polyamory</a></td>
-                      <td class="py-2 px-4">York</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                    <tr class="border-t border-black/10">
-                      <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/groups/2073115902970629" target="_blank" rel="noopener noreferrer">Yorkshire Polyamory Network</a></td>
-                      <td class="py-2 px-4">Yorkshire</td>
-                      <td class="py-2 px-4">TBD</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <a
+                href="/community-pages/index.shtml"
+                class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+              >
+                View groups with pages on this site
+              </a>
             </section>
 
-          </article>
+<!-- Directory table -->
+            <section class="space-y-2 pt-2 border-t border-black/10">
+              <h3 class="text-xl font-bold">Directory of groups on other platforms</h3>
+
+              <p class="text-base md:text-lg leading-relaxed">
+                The full directory is now on its own page (it’s a long table, and this keeps the Community page snappy).
+              </p>
+
+              <a
+                href="/uk-groups-directory.shtml"
+                class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+              >
+                View the UK groups directory
+              </a>
+
+              <p class="text-sm opacity-80">
+                Please contact each group directly for the latest details. We do not directly endorse any of these groups.
+              </p>
+            </section>
+
+</article>
         </section>
 
         <!-- International -->
