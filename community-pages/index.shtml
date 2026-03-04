@@ -53,7 +53,7 @@ UKPA does not directly endorse any group listed.
 <div class="space-y-4">
 
 <a
-href="/community-pages/Yorkshire-OPEN.shtml"
+href="/community-pages/yorkshire-open.shtml"
 class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
 >
 <strong>Yorkshire O.P.E.N</strong><br>
@@ -66,6 +66,14 @@ class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
 >
 <strong>UK-Poly email list</strong><br>
 Long-running UK mailing list for discussion and community around polyamory.
+</a>
+
+<a
+href="/community-pages/bristol-south-west-polyamory.shtml"
+class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+>
+<strong>Bristol and South West Polyamory Social Group</strong><br>
+Long-running in-person polyamory social group in Bristol with monthly meetups and community events.
 </a>
 
 </div>

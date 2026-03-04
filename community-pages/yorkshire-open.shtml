@@ -76,7 +76,7 @@
 
           <!-- NEW: Image -->
           <img
-            src="/community-pages/images/Yorkshire-OPEN.png"
+            src="/community-pages/images/yorkshire-open.png"
             alt="Yorkshire O.P.E.N community"
             class="rounded-xl w-full h-auto"
             loading="lazy"
