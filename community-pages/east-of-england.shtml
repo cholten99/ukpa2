@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17876605291');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>East of England Polyamory – UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Main -->
+    <main id="main" class="md:col-span-2">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+        <!-- LEFT: Key info -->
+        <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
+          <h1 class="text-2xl font-extrabold">East of England Polyamory</h1>
+
+          <p>
+            “A warm and welcoming space for both the poly-curious and the poly-experienced.”
+          </p>
+
+          <p class="font-semibold">
+            Discussion | Learning | Connection | Community
+          </p>
+
+          <div class="grid gap-3 mt-1">
+            <a href="https://www.meetup.com/east-of-england-polyamory/" target="_blank" rel="noopener noreferrer"
+               class="inline-flex justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+              Meetup page
+            </a>
+
+            <a href="https://www.eventbrite.co.uk/o/the-polyamory-perspective-120958790755" target="_blank" rel="noopener noreferrer"
+               class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+              Eventbrite
+            </a>
+
+            <a href="mailto:polytracyuk@gmail.com"
+               class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+              Email organiser
+            </a>
+
+            <a href="https://www.linkedin.com/company/the-polyamory-perspective/" target="_blank" rel="noopener noreferrer"
+               class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+              LinkedIn
+            </a>
+          </div>
+
+          <div class="pt-2 border-t border-black/10 space-y-2">
+            <p><strong>Type:</strong> Both (in-person + online)</p>
+            <p><strong>Area covered:</strong> Cambridgeshire and the wider East of England, with online events open to people across the UK and beyond</p>
+            <p><strong>Online social + discussion:</strong> Usually 2nd Thursday of the month</p>
+            <p><strong>In-person socials:</strong> Every other month</p>
+            <p><strong>Workshops / webinars:</strong> Roughly monthly</p>
+          </div>
+
+          <p class="text-sm opacity-80">
+            Last updated: March 2026
+          </p>
+        </section>
+
+        <!-- RIGHT -->
+        <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
+
+          <!-- Optional image slot
+          <img
+            src="/community-pages/images/east-of-england-polyamory.png"
+            alt="East of England Polyamory community"
+            class="rounded-xl w-full h-auto"
+            loading="lazy"
+          >
+          -->
+
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">What it’s like</h2>
+            <p>
+              East of England Polyamory offers a mix of discussion, learning, connection and community for both people who are already polyamorous and people who are simply curious and want to learn more.
+            </p>
+            <p>
+              Events are run both online and in person, with a focus on being warm, welcoming and accessible to people with different levels of experience.
+            </p>
+          </section>
+
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">Where it’s based</h2>
+            <p>
+              In-person events are currently centred around Cambridgeshire, with activity in places including Cambridge, St Ives, Ely and Bury St Edmunds.
+            </p>
+            <p>
+              The aim is to extend further into Suffolk, Norfolk and other nearby counties over time. Online events are open more widely, and have already attracted attendees from the UK, Europe, the USA and Canada.
+            </p>
+          </section>
+
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">Brief history</h2>
+            <p>
+              Tracy set up East of England Polyamory in November 2025 to build a like-minded social circle and community in the region, and to offer a broader range of poly-specific events than had previously been available locally.
+            </p>
+          </section>
+
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">Events on offer</h2>
+            <p>
+              <strong>Online social + discussion events</strong> usually take place on the second Thursday of the month. These are gently facilitated, theme-based events covering topics such as jealousy, compersion, consent and commitment, with breakout-room conversations to help people connect.
+            </p>
+            <p>
+              <strong>In-person socials</strong> happen every other month and include café or pub meetups, walks and picnics. These are informal community events with no set agenda.
+            </p>
+            <p>
+              <strong>Online webinars and workshops</strong> run roughly monthly and are more in-depth, covering education, support and practical poly topics. These include introductory sessions for people new to ethical non-monogamy, as well as deeper dives into common challenges.
+            </p>
+          </section>
+
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">Who it’s for</h2>
+            <p>
+              The group is designed for both the poly-curious and the poly-experienced. Some events are community socials, while others are more educational and may also suit people attending for professional or learning reasons.
+            </p>
+          </section>
+
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">How to join</h2>
+            <p>
+              The easiest way to get started is via the Meetup page or Eventbrite links above, depending on the event. You can also contact Tracy directly by email.
+            </p>
+          </section>
+
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">What people say</h2>
+            <p>
+              Attendees describe the monthly social and discussion events as friendly, respectful, engaging and thought-provoking, and have highlighted the value of being able to talk openly about poly experiences in a poly-focused space.
+            </p>
+            <p>
+              Introductory workshop attendees have also praised Tracy’s hosting style as engaging, insightful and approachable.
+            </p>
+          </section>
+
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+
+  </div>
+</body>
+</html>
