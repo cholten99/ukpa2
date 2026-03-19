@@ -84,14 +84,13 @@
         <!-- RIGHT -->
         <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
 
-          <!-- Optional image slot
+          <!-- Image -->
           <img
-            src="/community-pages/images/east-of-england-polyamory.png"
+            src="/community-pages/images/EoE.jpeg"
             alt="East of England Polyamory community"
             class="rounded-xl w-full h-auto"
             loading="lazy"
           >
-          -->
 
           <section class="space-y-2">
             <h2 class="text-xl font-bold">What it’s like</h2>
