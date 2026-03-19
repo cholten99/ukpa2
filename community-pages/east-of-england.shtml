@@ -156,6 +156,14 @@
             </p>
           </section>
 
+          <section class="space-y-2">
+            <h2 class="text-xl font-bold">For more information or if you have questions</h2>
+            <p>
+              Please email Tracy at <a href="mailto:polytracyuk@gmail.com" class="underline underline-offset-2 hover:underline-offset-4">polytracyuk@gmail.com</a>.
+            </p>
+
+          </section>
+
         </section>
 
       </div>
