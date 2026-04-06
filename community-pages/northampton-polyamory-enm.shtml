@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17876605291');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>Northampton Polyamory &amp; ENM – UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+
+  </head>
+
+  <body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+  <!-- Header -->
+  <!--#include virtual="/includes/header.html" -->
+
+  <main id="main" class="md:col-span-2">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+  <!-- LEFT -->
+  <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
+
+  <h1 class="text-2xl font-extrabold">Northampton Polyamory &amp; ENM Meet Up Group</h1>
+
+  <p>
+  For those in the Northamptonshire area and beyond who are interested in networking
+  and gatherings with other ENM folk in the local area. Relaxed, friendly and
+  welcoming to new folk.
+  </p>
+
+  <div class="flex flex-col gap-3 mt-2">
+
+  <a href="https://www.facebook.com/groups/433998870091376"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95">
+  Visit Facebook group
+  </a>
+
+  <a href="https://fetlife.com/NNPolyamory"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20">
+  Visit Fetlife (@NNPolyamory)
+  </a>
+
+  <a href="mailto:northamptonpolyamory@gmail.com"
+  class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20">
+  Email the organisers
+  </a>
+
+  </div>
+
+  <div class="pt-2 border-t border-black/10 space-y-2">
+
+  <p><strong>Type:</strong> In-person &amp; online</p>
+  <p><strong>Minimum age:</strong> 18+</p>
+  <p><strong>Family friendly:</strong> Yes</p>
+  <p><strong>Area covered:</strong> Northampton, Northamptonshire and surrounding areas — all welcome</p>
+  <p><strong>Monthly meet-up:</strong> First Saturday of every month</p>
+  <p><strong>Location:</strong> A Northampton town centre pub (join the Facebook or Fetlife group for full location details)</p>
+  <p><strong>Cost:</strong> Free — please support the venue</p>
+
+  </div>
+
+  <div class="pt-2 border-t border-black/10 space-y-2">
+
+  <p class="font-semibold">Accessibility</p>
+  <p class="text-base">
+  Main entrance has one step. A step-free side entrance is available — call the pub ahead to have it opened.
+  Accessible toilet on the ground floor. Vegan and gluten-free menu options available.
+  </p>
+
+  </div>
+
+  <p class="text-sm opacity-80">
+  Last updated: April 2026
+  </p>
+
+  </section>
+
+  <!-- RIGHT -->
+  <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
+
+  <section class="space-y-2">
+
+  <h2 class="text-xl font-bold">About the group</h2>
+
+  <p>
+  Northampton Polyamory &amp; ENM has been running regular meet-ups since 2015, building
+  a warm community of over 300 members across Facebook and Fetlife. The group welcomes
+  anyone interested in ethical non-monogamy — whether you're curious, newly exploring,
+  or experienced.
+  </p>
+
+  </section>
+
+  <section class="space-y-2">
+
+  <h2 class="text-xl font-bold">What it's like</h2>
+
+  <p>
+  Meet-ups take place in a friendly Northampton town centre pub on the first Saturday
+  of every month. The atmosphere is relaxed and sociable — great for catching up with
+  people you know and meeting new faces.
+  </p>
+
+  <p>
+  This is a social group rather than a dating event. Dating and cruising are
+  discouraged; anyone attending with that as their primary purpose may be asked to leave.
+  </p>
+
+  </section>
+
+  <section class="space-y-2">
+
+  <h2 class="text-xl font-bold">How to join</h2>
+
+  <p>
+  Join the private Facebook group or follow <strong>@NNPolyamory</strong> on Fetlife.
+  Event details — including the exact pub location — are posted there to protect
+  attendee privacy. If you have any questions before attending, post in the group,
+  comment on the event, or send a direct message to the organisers.
+  </p>
+
+  <p>
+  The organiser on Facebook is <strong>Emily DF Payne</strong>. On Fetlife, contact
+  <strong>@NNPolyamory</strong>.
+  </p>
+
+  </section>
+
+  <section class="space-y-2">
+
+  <h2 class="text-xl font-bold">Code of conduct</h2>
+
+  <p>
+  The safety and comfort of all attendees is the top priority. Anyone not following
+  the code of conduct may be asked to leave or banned from future events. If something
+  makes you feel unsafe or uncomfortable, please contact the organisers.
+  </p>
+
+  <ul class="list-disc pl-6 space-y-2">
+  <li>Always get consent before touching, hugging, touching someone's belongings, or asking personal or intimate questions. Anything other than an enthusiastic yes means <strong>no</strong>.</li>
+  <li>This is not a dating event. Whilst connections may develop naturally, please do not attend with that as your primary purpose.</li>
+  <li>Please do not attend if you are ill or showing symptoms of something contagious (cold, flu, COVID, etc.) — to protect immunocompromised members and their families.</li>
+  <li>Respect people's pronouns and identities.</li>
+  <li>Be mindful that the venue is a public space. Conversations and behaviour may be seen or heard by other pub patrons and staff.</li>
+  <li>Do not photograph other attendees.</li>
+  <li>Do not "out" anyone to people outside the group.</li>
+  <li>Do not cold-message people from the attendees list. If you have questions, post in the group or contact the organisers.</li>
+  <li>No genital profile pictures. Accounts with such images may not interact with the group or attend events — please update your profile picture first.</li>
+  </ul>
+
+  </section>
+
+  <section class="space-y-2">
+
+  <h2 class="text-xl font-bold">Online community</h2>
+
+  <p>
+  The group is active on both Facebook and Fetlife. Events are listed privately in
+  both places to protect member privacy.
+  </p>
+
+  <ul class="list-disc pl-6 space-y-1">
+  <li>
+  <a href="https://www.facebook.com/groups/433998870091376"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="underline underline-offset-2 hover:underline-offset-4 font-semibold">
+  Facebook group
+  </a>
+  </li>
+  <li>
+  <a href="https://fetlife.com/NNPolyamory"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="underline underline-offset-2 hover:underline-offset-4 font-semibold">
+  Fetlife (@NNPolyamory)
+  </a>
+  </li>
+  <li>
+  <a href="mailto:northamptonpolyamory@gmail.com"
+  class="underline underline-offset-2 hover:underline-offset-4">
+  northamptonpolyamory@gmail.com
+  </a>
+  </li>
+  </ul>
+
+  </section>
+
+  </section>
+
+  </div>
+  </main>
+
+  <!-- Footer -->
+  <!--#include virtual="/includes/footer.html" -->
+
+  </div>
+  </body>
+  </html>
