@@ -95,6 +95,13 @@
   <!-- RIGHT -->
   <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
 
+  <img
+  src="/community-pages/images/northampton-polyamory-enm.png"
+  alt="Northampton Polyamory and ENM"
+  class="rounded-xl w-full h-auto"
+  loading="lazy"
+  />
+
   <section class="space-y-2">
 
   <h2 class="text-xl font-bold">About the group</h2>
