@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17876605291');
+    </script>
+
+    <meta charset="UTF-8" />
+    <title>ENM Brighton – UK Polyamory Association</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+  </head>
+
+  <body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+      <!-- Header -->
+      <!--#include virtual="/includes/header.html" -->
+
+      <!-- Main -->
+      <main id="main" class="md:col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+          <!-- LEFT: Key info -->
+          <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
+            <h1 class="text-2xl font-extrabold">ENM Brighton</h1>
+
+            <p>
+              "Non-binary &amp; queer founded, ENM Brighton is a welcoming community for people practising or curious about ethical non-monogamy.
+              We meet more or less monthly for discussions, socials, and events — from book clubs to casual pub nights to crafting afternoons.
+              Whether you're new to ENM or years in, there's space for you here."
+            </p>
+
+            <div class="grid gap-3 mt-1">
+              <a href="https://www.enmbrighton.com" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+                Visit website
+              </a>
+
+              <a href="https://www.instagram.com/enmbrighton" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                Instagram @enmbrighton
+              </a>
+
+              <a href="mailto:enmbrighton@gmail.com"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                Email organisers
+              </a>
+            </div>
+
+            <div class="pt-2 border-t border-black/10 space-y-2">
+              <p><strong>Type:</strong> In person</p>
+              <p><strong>Area covered:</strong> Brighton &amp; Hove / Sussex</p>
+              <p><strong>Meets:</strong> Monthly</p>
+              <p><strong>Venues:</strong> The Queery (queer bookstore) and The Actors pub, Brighton</p>
+              <p><strong>Cost:</strong> Free / donation</p>
+              <p><strong>Minimum age:</strong> 18+</p>
+              <p><strong>Community size:</strong> ~200 members</p>
+            </div>
+
+            <p class="text-sm opacity-80">
+              Last updated: April 2026
+            </p>
+          </section>
+
+          <!-- RIGHT: Main content -->
+          <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">What it's like</h2>
+              <p>
+                ENM Brighton is newcomer-friendly, discussion-focused, warm and non-judgmental — and deliberately de-sexualised.
+                Events range from book clubs and crafting afternoons to casual pub nights, all centred on open, supportive conversation rather than dating.
+              </p>
+              <p>
+                It's a community built for people who want to talk honestly about ENM — sharing vulnerabilities, learning from each other, and finding connection.
+                Romantic connections do of course evolve naturally, but this isn't a cruising or find-a-date environment.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Brief history</h2>
+              <p>
+                ENM Brighton was founded in 2022 by non-binary and queer organisers who wanted to create a space for open, vulnerable conversations among ENM folks — not just dating.
+                It has since grown to a community of around 200 people, running regular in-person events in central Brighton.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">How to join</h2>
+              <p>
+                Follow <a href="https://www.instagram.com/enmbrighton" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4 font-semibold">@enmbrighton on Instagram</a>
+                for event announcements, or visit <a href="https://www.enmbrighton.com" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4 font-semibold">enmbrighton.com</a>.
+                You can also reach out by email. There is no WhatsApp group — this is intentional.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Privacy</h2>
+              <ul class="list-disc pl-6 space-y-1">
+                <li>No photos without consent.</li>
+                <li>The member list is not shared outside the group.</li>
+                <li>No WhatsApp presence — a deliberate choice by the organisers.</li>
+              </ul>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Accessibility</h2>
+              <p>Events move between two venues in central Brighton:</p>
+              <ul class="list-disc pl-6 space-y-1 mt-1">
+                <li>
+                  <strong>The Queery</strong> – wheelchair-accessible entrance, seating and toilet; gender-neutral toilets; sober space.
+                  A small, intimate venue — worth noting it can feel cosy at capacity, and noise can sometimes be a challenge.
+                </li>
+                <li>
+                  <strong>The Actors pub</strong> – a relaxed pub setting in central Brighton.
+                </li>
+              </ul>
+            </section>
+
+            <!-- Map -->
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Location</h2>
+
+              <div class="rounded-xl overflow-hidden ring-1 ring-black/10 aspect-square">
+                <iframe
+                  src="https://www.google.com/maps?q=Brighton,+East+Sussex&output=embed"
+                  class="w-full h-full border-0"
+                  loading="lazy"
+                  title="Map showing Brighton"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+
+              <p>
+                <a href="https://www.google.com/maps?q=Brighton,+East+Sussex"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4">
+                  Open in Google Maps
+                </a>
+              </p>
+            </section>
+
+          </section>
+
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <!--#include virtual="/includes/footer.html" -->
+
+    </div>
+  </body>
+  </html>
+  
