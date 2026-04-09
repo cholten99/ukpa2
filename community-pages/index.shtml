@@ -1,88 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+  <html lang="en">
+  <head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'AW-17876605291');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17876605291');
+  </script>
 
-<meta charset="UTF-8" />
-<title>Community groups – UK Polyamory Association</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <title>Community groups – UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="/styles.css" />
-<link rel="icon" type="image/png" href="/images/logo.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
 
-</head>
+  </head>
 
-<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+  <body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
 
-<!-- Header -->
-<!--#include virtual="/includes/header.html" -->
+  <!-- Header -->
+  <!--#include virtual="/includes/header.html" -->
 
-<main id="main" class="md:col-span-2">
-<div class="grid grid-cols-1 gap-2">
+  <main id="main" class="md:col-span-2">
+  <div class="grid grid-cols-1 gap-2">
 
-<section class="p-8 rounded-2xl ukpa-bg-cell shadow">
-<article class="space-y-4">
+  <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+  <article class="space-y-4">
 
-<h1 class="text-2xl font-extrabold">Groups with pages on this site</h1>
+  <h1 class="text-2xl font-extrabold">Groups with pages on this site</h1>
 
-<p>
-Some UK polyamory groups have dedicated pages hosted on the UKPA website.
-These pages provide more detailed information about how the groups work and what people can expect.
-</p>
+  <p>
+  Some UK polyamory groups have dedicated pages hosted on the UKPA website.
+  These pages provide more detailed information about how the groups work and what people can expect.
+  </p>
 
-<p class="text-sm opacity-80">
-Please contact each group directly for the latest details.
-UKPA does not directly endorse any group listed.
-</p>
+  <p class="text-sm opacity-80">
+  Please contact each group directly for the latest details.
+  UKPA does not directly endorse any group listed.
+  </p>
 
-</article>
-</section>
+  </article>
+  </section>
 
-<section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+  <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
 
-<div class="space-y-4">
+  <div class="space-y-4">
 
-<a
-href="/community-pages/yorkshire-open.shtml"
-class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
->
-<strong>Yorkshire O.P.E.N</strong><br>
-Support group and community for people interested in ethically non-monogamous relationships in Yorkshire.
-</a>
+  <a
+  href="/community-pages/yorkshire-open.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>Yorkshire O.P.E.N</strong><br>
+  Support group and community for people interested in ethically non-monogamous relationships in Yorkshire.
+  </a>
 
-<a
-href="/community-pages/east-of-england.shtml"
-class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
->
-<strong>East of England Polyamory</strong><br>
-A warm and welcoming space for both the poly-curious and the poly-experienced.
-</a>
+  <a
+  href="/community-pages/east-of-england.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>East of England Polyamory</strong><br>
+  A warm and welcoming space for both the poly-curious and the poly-experienced.
+  </a>
 
-<a
-href="/community-pages/uk-poly-list.shtml"
-class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
->
-<strong>UK-Poly email list</strong><br>
-Long-running UK mailing list for discussion and community around polyamory.
-</a>
+  <a
+  href="/community-pages/uk-poly-list.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>UK-Poly email list</strong><br>
+  Long-running UK mailing list for discussion and community around polyamory.
+  </a>
 
-<a
-href="/community-pages/bristol-south-west-polyamory.shtml"
-class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
->
-<strong>Bristol and South West Polyamory Social Group</strong><br>
-Long-running in-person polyamory social group in Bristol with monthly meetups and community events.
-</a>
+  <a
+  href="/community-pages/bristol-south-west-polyamory.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>Bristol and South West Polyamory Social Group</strong><br>
+  Long-running in-person polyamory social group in Bristol with monthly meetups and community events.
+  </a>
 
   <a
   href="/community-pages/northampton-polyamory-enm.shtml"
@@ -92,16 +92,25 @@ Long-running in-person polyamory social group in Bristol with monthly meetups an
   Monthly in-person meet-ups and an online community for ENM folk in Northamptonshire and surrounding areas.
   </a>
 
-</div>
+  <a
+  href="/community-pages/polyamory-support-group.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>Polyamory Support Group</strong><br>
+  Monthly in-person meet-ups in Birmingham's Jewellery Quarter for polyamorous people and the poly-curious.
+  </a>
 
-</section>
+  </div>
 
-</div>
-</main>
+  </section>
 
-<!-- Footer -->
-<!--#include virtual="/includes/footer.html" -->
+  </div>
+  </main>
 
-</div>
-</body>
-</html>
+  <!-- Footer -->
+  <!--#include virtual="/includes/footer.html" -->
+
+  </div>
+  </body>
+  </html>
+  
