@@ -104,47 +104,6 @@
                 <li><strong>Respect the physical space</strong> – leave it as you found it.</li>
               </ul>
             </section>
-
-            <!-- Map -->
-            <section class="space-y-2">
-              <h2 class="text-xl font-bold">Location</h2>
-
-              <div class="rounded-xl overflow-hidden ring-1 ring-black/10 aspect-square">
-                <iframe
-                  src="https://www.google.com/maps?q=The+Rectory,+Jewellery+Quarter,+Birmingham&output=embed"
-                  class="w-full h-full border-0"
-                  loading="lazy"
-                  title="Map showing The Rectory, Jewellery Quarter, Birmingham"
-                  referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-              </div>
-
-              <p>
-                <a href="https://www.google.com/maps?q=The+Rectory,+Jewellery+Quarter,+Birmingham"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="underline underline-offset-2 hover:underline-offset-4">
-                  Open in Google Maps
-                </a>
-              </p>
-            </section>
-
-            <!-- Video -->
-            <section class="space-y-2">
-              <h2 class="text-xl font-bold">Video</h2>
-
-              <div class="rounded-xl overflow-hidden ring-1 ring-black/10 aspect-video">
-                <iframe
-                  src="https://drive.google.com/file/d/1zuTYTkIw6a2TA-iC5WkeLm02cp_lQU5m/preview"
-                  class="w-full h-full border-0"
-                  loading="lazy"
-                  title="Polyamory Support Group video"
-                  allow="autoplay"
-                  referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-              </div>
-            </section>
-
           </section>
 
         </div>

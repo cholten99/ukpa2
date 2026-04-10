@@ -126,31 +126,6 @@
                   for announcements.
                 </p>
               </section>
-
-              <!-- Map -->
-              <section class="space-y-2">
-                <h2 class="text-xl font-bold">Location</h2>
-
-                <div class="rounded-xl overflow-hidden ring-1 ring-black/10 aspect-square">
-                  <iframe
-                    src="https://www.google.com/maps?q=London,+UK&output=embed"
-                    class="w-full h-full border-0"
-                    loading="lazy"
-                    title="Map showing London"
-                    referrerpolicy="no-referrer-when-downgrade">
-                  </iframe>
-                </div>
-
-                <p>
-                  <a href="https://www.google.com/maps?q=London,+UK"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="underline underline-offset-2 hover:underline-offset-4">
-                    Open in Google Maps
-                  </a>
-                </p>
-              </section>
-
             </section>
 
           </div>
