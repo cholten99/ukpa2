@@ -68,6 +68,14 @@
             <!-- RIGHT: Main content -->
             <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
 
+                <!-- Banner image -->
+                <img
+                  src="/community-pages/images/big-feelings-enm.jpg"
+                  alt="Big Feelings ENM — A network of care for ENM folx"
+                  class="rounded-xl w-full h-auto"
+                  loading="lazy"
+                >
+
               <section class="space-y-2">
                 <h2 class="text-xl font-bold">What happens at the socials?</h2>
                 <p>
