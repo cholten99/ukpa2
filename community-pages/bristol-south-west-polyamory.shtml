@@ -159,7 +159,29 @@ The organisers take reports of rule-breaking seriously and prioritise protecting
 Issues are usually handled by quietly calling people in rather than publicly shaming them.
 </p>
 
-</section></section>
+</section>
+              <!-- Area map -->
+              <section class="space-y-2">
+                <h2 class="text-xl font-bold">Area covered</h2>
+                <div class="rounded-xl overflow-hidden ring-1 ring-black/10" style="height:280px">
+                  <div id="map-bristol" style="height:100%;width:100%"></div>
+                </div>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+                <script>
+                  (function(){
+                    var m = L.map('map-bristol',{scrollWheelZoom:false});
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+                      attribution:'&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',maxZoom:19
+                    }).addTo(m);
+                    var poly = L.polygon([[51.75,-1.8],[51.55,-0.55],[50.85,-0.75],[50.6,-1.2],[49.9,-5.2],[50.5,-5.75],[51.2,-4.55],[51.55,-3.6],[52,-2.5],[51.9,-2.1]],{
+                      color:'#1d4ed8',weight:2,fillColor:'#3b82f6',fillOpacity:0.22
+                    }).addTo(m);
+                    m.fitBounds(poly.getBounds(),{padding:[20,20]});
+                  })();
+                </script>
+              </section>
+</section>
 
 </div>
 </main>

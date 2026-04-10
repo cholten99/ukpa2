@@ -104,7 +104,33 @@
                 <li><strong>Respect the physical space</strong> – leave it as you found it.</li>
               </ul>
             </section>
-          </section>
+          
+              <!-- Venue map -->
+              <section class="space-y-2">
+                <h2 class="text-xl font-bold">Where to find us</h2>
+                <div class="rounded-xl overflow-hidden ring-1 ring-black/10" style="height:280px">
+                  <div id="map-poly-group" style="height:100%;width:100%"></div>
+                </div>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+                <script>
+                  (function(){
+                    var m = L.map('map-poly-group',{scrollWheelZoom:false});
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+                      attribution:'&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',maxZoom:19
+                    }).addTo(m);
+                    var markers = [{"latlng":[52.4876,-1.9096],"name":"The Rectory, Jewellery Quarter"}];
+                    var group = L.featureGroup();
+                    markers.forEach(function(mk){
+                      L.marker(mk.latlng).addTo(m).bindPopup('<strong>'+mk.name+'</strong>').openPopup();
+                      group.addLayer(L.marker(mk.latlng));
+                    });
+                    if(markers.length===1){m.setView(markers[0].latlng,16);}
+                    else{m.fitBounds(group.getBounds(),{padding:[40,40]});}
+                  })();
+                </script>
+              </section>
+</section>
 
         </div>
       </main>

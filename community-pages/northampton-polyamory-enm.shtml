@@ -71,7 +71,7 @@
   <p><strong>Family friendly:</strong> Yes</p>
   <p><strong>Area covered:</strong> Northampton, Northamptonshire and surrounding areas — all welcome</p>
   <p><strong>Monthly meet-up:</strong> First Saturday of every month</p>
-  <p><strong>Location:</strong> A Northampton town centre pub (join the Facebook or Fetlife group for full location details)</p>
+  <p><strong>Venue:</strong> A Northampton town centre pub (join the Facebook or Fetlife group for full location details)</p>
   <p><strong>Cost:</strong> Free — please support the venue</p>
 
   </div>
@@ -210,7 +210,29 @@
 
   </section>
 
-  </section>
+  
+              <!-- Area map -->
+              <section class="space-y-2">
+                <h2 class="text-xl font-bold">Area covered</h2>
+                <div class="rounded-xl overflow-hidden ring-1 ring-black/10" style="height:280px">
+                  <div id="map-northants" style="height:100%;width:100%"></div>
+                </div>
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+                <script>
+                  (function(){
+                    var m = L.map('map-northants',{scrollWheelZoom:false});
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+                      attribution:'&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',maxZoom:19
+                    }).addTo(m);
+                    var poly = L.polygon([[52.68,-1.5],[52.7,-0.55],[52.18,-0.32],[51.95,-0.85],[51.98,-1.38],[52.45,-1.55]],{
+                      color:'#1d4ed8',weight:2,fillColor:'#3b82f6',fillOpacity:0.22
+                    }).addTo(m);
+                    m.fitBounds(poly.getBounds(),{padding:[20,20]});
+                  })();
+                </script>
+              </section>
+</section>
 
   </div>
   </main>
