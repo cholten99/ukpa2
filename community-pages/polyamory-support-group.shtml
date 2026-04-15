@@ -12,7 +12,7 @@
     </script>
 
     <meta charset="UTF-8" />
-    <title>Polyamory Support Group – UK Polyamory Association</title>
+    <title>Birmingham Polyamory Support Group – UK Polyamory Association</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -32,7 +32,7 @@
 
           <!-- LEFT: Key info -->
           <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
-            <h1 class="text-2xl font-extrabold">Polyamory Support Group</h1>
+            <h1 class="text-2xl font-extrabold">Birmingham Polyamory Support Group</h1>
 
             <p>
               "The Polyamory Support Group is for anyone who identifies as polyamorous or is curious about polyamory and wants to socialise, learn, and discuss with other members of the community.
@@ -40,7 +40,7 @@
             </p>
 
             <div class="grid gap-3 mt-1">
-              <a href="https://fetlife.com/groups/PolyamSupportGrp" target="_blank" rel="noopener noreferrer"
+              <a href="https://fetlife.com/PolyamSupportGrp" target="_blank" rel="noopener noreferrer"
                  class="inline-flex justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
                 FetLife page
@@ -109,7 +109,7 @@
                 <p>
                   We meet centrally in Birmingham, sometimes in the Jewellery Quarter or the Gay Village.
                   The venues we choose are accessible with level entrances and accessible bathrooms.
-                  Find out more on our <a href="https://fetlife.com/groups/PolyamSupportGrp" target="_blank" rel="noopener noreferrer" class="underline hover:opacity-75">group page</a>,
+                  Find out more on our <a href="https://fetlife.com/PolyamSupportGrp" target="_blank" rel="noopener noreferrer" class="underline hover:opacity-75">group page</a>,
                   or feel free to <a href="mailto:thepolysg@gmail.com" class="underline hover:opacity-75">email directly</a> for details.
                 </p>
               </section>
