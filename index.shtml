@@ -28,6 +28,24 @@
 
     <!-- Content area spans both columns -->
     <main id='main' class="md:col-span-2">
+      <div class="grid grid-cols-1 gap-2">
+
+      <!-- Events banner -->
+      <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+        <article class="flex flex-col md:flex-row items-center gap-6">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/628ea75a89ddf6340c522478/1c45e8b0-3a37-40ca-9893-9136c0a6dc32/WeekOfVisibilityLogo2026.png?format=1500w"
+            alt="Week of Visibility for Non-Monogamy 2026 logo"
+            class="w-40 shrink-0"
+          >
+          <div class="space-y-2">
+            <h2 class="text-2xl font-extrabold">Upcoming events</h2>
+            <p>We're hosting a picnic in Regent's Park on <strong>Tuesday 8 July at 6pm</strong> to mark the Week of Visibility for Non-Monogamy — a chance to meet new people and enjoy the sunshine with the poly community.</p>
+            <p><a href="/event-pages/week-of-visibility.shtml" class="underline underline-offset-2 hover:underline-offset-4 font-semibold">Find out more and let us know you're coming</a></p>
+          </div>
+        </article>
+      </section>
+
       <!-- Two bubbles: stacked on mobile, side-by-side on desktop -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
         <!-- Bubble A -->
@@ -58,6 +76,7 @@
 
           </article>
         </section>
+      </div>
       </div>
     </main>
 

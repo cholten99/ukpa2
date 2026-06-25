@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17876605291');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>WoVfNM Picnic – UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+
+</head>
+
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+  <!-- Header -->
+  <!--#include virtual="/includes/header.html" -->
+
+  <!-- Main -->
+  <main id="main" class="md:col-span-2">
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+      <!-- LEFT: Key info / CTA -->
+      <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
+
+        <h1 class="text-2xl font-extrabold">Week of Visibility for Non-Monogamy Picnic</h1>
+
+        <dl class="space-y-3 text-base">
+          <div><dt class="font-semibold inline">Date:</dt> <dd class="inline">Tuesday 8 July 2026</dd></div>
+          <div><dt class="font-semibold inline">Time:</dt> <dd class="inline">6:00pm onwards</dd></div>
+          <div>
+            <dt class="font-semibold">Location:</dt>
+            <dd class="mt-1">Regent's Park Open Air Theatre, London</dd>
+            <dd class="mt-2">
+              <div class="rounded-xl overflow-hidden ring-1 ring-black/10" style="aspect-ratio: 4/3">
+                <iframe
+                  src="https://maps.google.com/maps?q=51.5284298,-0.1547323&output=embed"
+                  class="w-full h-full border-0"
+                  loading="lazy"
+                  title="Map showing Regent's Park Open Air Theatre"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+              <a href="https://www.google.com/maps/place/Regent's+Park+Open+Air+Theatre/@51.5277873,-0.1547209,338m/data=!3m1!1e3!4m6!3m5!1s0x48761ac565a69b0b:0x47a624e68381832b!8m2!3d51.5284298!4d-0.1547323!16zL20vMDRybHJm?entry=ttu&g_ep=EgoyMDI2MDYyMi4wIKXMDSoASAFQAw%3D%3D"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="text-sm underline underline-offset-2 hover:underline-offset-4 mt-1 inline-block">
+                Open in Google Maps
+              </a>
+            </dd>
+          </div>
+        </dl>
+
+        <p class="text-sm opacity-80">Last updated: June 2026</p>
+      </section>
+
+      <!-- RIGHT: Main content -->
+      <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
+
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/628ea75a89ddf6340c522478/1c45e8b0-3a37-40ca-9893-9136c0a6dc32/WeekOfVisibilityLogo2026.png?format=1500w"
+          alt="Week of Visibility for Non-Monogamy 2026 logo"
+          class="rounded-xl w-full max-w-md mx-auto"
+        >
+
+        <section class="space-y-2">
+          <h2 class="text-xl font-bold">About this event</h2>
+          <p>
+            Join us for a picnic in Regent's Park to mark the Week of Visibility for Non-Monogamy—
+            a chance to meet new people, enjoy the sunshine, and celebrate community with
+            polyamorous and ethically non-monogamous folk from across the UK.
+          </p>
+          <p>
+            Whether you're new to non-monogamy or a seasoned veteran, come along, bring a blanket and some food,
+            and say hello.
+          </p>
+        </section>
+
+        <section class="space-y-2">
+          <h2 class="text-xl font-bold">Let us know you're coming</h2>
+          <p class="text-base opacity-80">No ticket needed — just fill in the form below so we have an idea of numbers. <a href="https://forms.gle/RKfLxkN7zNyKrNGw6" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:underline-offset-4">Open the form directly</a> if it doesn't load below.</p>
+          <div class="rounded-xl overflow-hidden ring-1 ring-black/10">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfdxVBD6EaCxsJFWd165zYFMkCWpLXA4hU7_U_HtnjikmYfvw/viewform?embedded=true"
+              width="100%"
+              height="600"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              title="WoVfNM Picnic attendance form"
+              loading="lazy">
+              Loading form…
+            </iframe>
+          </div>
+        </section>
+
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <!--#include virtual="/includes/footer.html" -->
+
+</div>
+</body>
+</html>
