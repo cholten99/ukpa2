@@ -34,14 +34,14 @@
       <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
         <article class="flex flex-col md:flex-row items-center gap-6">
           <img
-            src="https://images.squarespace-cdn.com/content/v1/628ea75a89ddf6340c522478/1c45e8b0-3a37-40ca-9893-9136c0a6dc32/WeekOfVisibilityLogo2026.png?format=1500w"
-            alt="Week of Visibility for Non-Monogamy 2026 logo"
+            src="https://polydaylondon.uk/2026/wp-content/uploads/2026/04/Colour.png"
+            alt="Polyday 2026 logo"
             class="w-40 shrink-0"
           >
           <div class="space-y-2">
             <h2 class="text-2xl font-extrabold">Upcoming events</h2>
-            <p>We're hosting a picnic in Regent's Park on <strong>Wednesday 8 July at 6pm</strong> to mark the Week of Visibility for Non-Monogamy — a chance to meet new people and enjoy the sunshine with the poly community.</p>
-            <p><a href="/event-pages/week-of-visibility.shtml" class="underline underline-offset-2 hover:underline-offset-4 font-semibold">Find out more and let us know you're coming</a></p>
+            <p>Polyday 2026 is a one-day event in London focused on ethical non-monogamy, taking place on <strong>Saturday 19 September</strong> at the Wilditch Estate Community Centre, Battersea.</p>
+            <p><a href="https://polydaylondon.uk" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:underline-offset-4 font-semibold">Find out more</a></p>
           </div>
         </article>
       </section>
@@ -64,7 +64,7 @@
         <section class="p-8 rounded-2xl ukpa-bg-cell shadow md:col-span-2">
           <article class="w-full space-y-4">
             <h1 class="text-2xl font-extrabold">Introduction to the UKPA</h1>
-            
+
               <video
                 class="pt-4 w-full overflow-hidden rounded-lg aspect-video"
                 controls
@@ -85,4 +85,3 @@
   </div>
 </body>
 </html>
-
