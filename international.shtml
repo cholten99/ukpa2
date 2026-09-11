@@ -110,6 +110,12 @@
                   </tr>
 
                   <tr class="border-t border-black/10">
+                    <td class="py-2 px-4">Finland</td>
+                    <td class="py-2 px-4">Polyamoria</td>
+                    <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://polyamoria.fi/" target="_blank" rel="noopener noreferrer">polyamoria.fi</a></td>
+                  </tr>
+
+                  <tr class="border-t border-black/10">
                     <td class="py-2 px-4">Hungary</td>
                     <td class="py-2 px-4">Nonmono</td>
                     <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://nonmono.org/" target="_blank" rel="noopener noreferrer">nonmono.org</a></td>
@@ -134,9 +140,21 @@
                   </tr>
 
                   <tr class="border-t border-black/10">
+                    <td class="py-2 px-4">Norway</td>
+                    <td class="py-2 px-4">PolyNorge</td>
+                    <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.polynorge.no" target="_blank" rel="noopener noreferrer">polynorge.no</a></td>
+                  </tr>
+
+                  <tr class="border-t border-black/10">
                     <td class="py-2 px-4">Portugal</td>
                     <td class="py-2 px-4">PolyPortugal</td>
                     <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.facebook.com/polyportugal/" target="_blank" rel="noopener noreferrer">facebook.com/polyportugal</a></td>
+                  </tr>
+
+                  <tr class="border-t border-black/10">
+                    <td class="py-2 px-4">Sweden</td>
+                    <td class="py-2 px-4">The Swedish Polyamory Association</td>
+                    <td class="py-2 px-4"><a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="https://www.polyforeningen.org" target="_blank" rel="noopener noreferrer">polyforeningen.org</a></td>
                   </tr>
 
                   <tr class="border-t border-black/10">
