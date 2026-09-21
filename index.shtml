@@ -30,22 +30,6 @@
     <main id='main' class="md:col-span-2">
       <div class="grid grid-cols-1 gap-2">
 
-      <!-- Events banner -->
-      <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
-        <article class="flex flex-col md:flex-row items-center gap-6">
-          <img
-            src="https://polydaylondon.uk/2026/wp-content/uploads/2026/04/Colour.png"
-            alt="Polyday 2026 logo"
-            class="w-40 shrink-0"
-          >
-          <div class="space-y-2">
-            <h2 class="text-2xl font-extrabold">Upcoming events</h2>
-            <p>Polyday 2026 is a one-day event in London focused on ethical non-monogamy, taking place on <strong>Saturday 19 September</strong> at the Wilditch Estate Community Centre, Battersea.</p>
-            <p><a href="https://polydaylondon.uk" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:underline-offset-4 font-semibold">Find out more</a></p>
-          </div>
-        </article>
-      </section>
-
       <!-- Two bubbles: stacked on mobile, side-by-side on desktop -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
         <!-- Bubble A -->
