@@ -30,6 +30,14 @@
     <main id='main' class="md:col-span-2">
       <div class="grid grid-cols-1 gap-2">
 
+      <!-- Annual report; compact strip -->
+      <section class="p-3 rounded-lg ukpa-bg-cell text-base">
+        <h2 class="font-bold inline">New:</h2>
+        <span class="ml-1">
+          Our <a href="/resources/UKPA-Annual-Report-2026.pdf" target="_blank" rel="noopener" class="underline underline-offset-2 hover:underline-offset-4">2026 Annual Report</a> is now available.
+        </span>
+      </section>
+
       <!-- Two bubbles: stacked on mobile, side-by-side on desktop -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
         <!-- Bubble A -->
