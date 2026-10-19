@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17876605291');
+    </script>
+
+    <meta charset="UTF-8" />
+    <title>London Poly Munch – UK Polyamory Association</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+  </head>
+
+  <body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+      <!-- Header -->
+      <!--#include virtual="/includes/header.html" -->
+
+      <!-- Main -->
+      <main id="main" class="md:col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+          <!-- LEFT: Key info -->
+          <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
+            <h1 class="text-2xl font-extrabold">London Poly Munch</h1>
+
+            <p>
+              "A relaxed monthly drink for poly, ENM and curious people in a normal pub. Nothing happens except talking: no dress code, nothing expected.
+              It's the easiest way to meet the community, especially if you're new." Run by Panacea.
+            </p>
+
+            <div class="grid gap-3 mt-1">
+              <a href="https://panaceaparties.co.uk/poly-munch-london/" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+                Visit website
+              </a>
+
+              <a href="https://fetlife.com/groups/318973" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                FetLife group
+              </a>
+
+              <a href="mailto:hello@panaceaparties.co.uk?subject=London%20Poly%20Munch%20enquiry"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                Email organisers
+              </a>
+            </div>
+
+            <div class="pt-2 border-t border-black/10 space-y-2">
+              <p><strong>Type:</strong> In person</p>
+              <p><strong>Area covered:</strong> London (West London venue)</p>
+              <p><strong>Meets:</strong> Monthly on a Wednesday from 6.15pm</p>
+              <p><strong>Cost:</strong> Free; buy your own drinks</p>
+              <p><strong>Minimum age:</strong> 18+</p>
+              <p><strong>Accessibility:</strong> First floor, reached by lift</p>
+            </div>
+
+            <p class="text-sm opacity-80">
+              Last updated: October 2026
+            </p>
+          </section>
+
+          <!-- RIGHT: Main content -->
+          <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">What it's like</h2>
+              <p>
+                Newcomer friendly and as inclusive as the organisers can make it: all backgrounds, genders, orientations and relationship shapes are welcome,
+                from singles to polycules to curious monogamous friends. Many regulars — and all the organisers — are neurodivergent, and disabled guests are very welcome.
+              </p>
+              <p>
+                Flirting is welcome too: bringing people together is a big part of why the munch exists. The group is strict about consent — talking is great,
+                but always ask first, and if there's any doubt, don't. In over ten years, organisers have needed to step in only a handful of times;
+                people are almost always charming and well behaved.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Brief history</h2>
+              <p>
+                The munch started around 2014–15 as a small local munch in Kilburn. The organisers had been searching for a "London Poly Munch" and kept finding
+                the one in London, Canada, so they started their own. Members asked for weekend socials, and the group began heading to parties together afterwards.
+                Too many venues weren't poly friendly — a "couples room" that turned away one of their triads, dungeons that put the bar before the play — so the
+                organisers started Panacea: parties that welcome groups of any size and put play ahead of drinking.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Upcoming dates</h2>
+              <p>
+                Monthly on a Wednesday from 6.15pm: 28 October, 25 November, 16 December 2026; 13 January, 3 February 2027.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">How to join</h2>
+              <p>
+                Listed on the <a href="https://panaceaparties.co.uk/poly-munch-london/" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4 font-semibold">Panacea website</a> and on the
+                <a href="https://fetlife.com/groups/318973" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4 font-semibold">FetLife group</a>.
+                RSVPs on FetLife are optional, and first names are fine. There's also a monthly email update — sign up on the munch page.
+                You can also contact the organisers directly by email.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Guidelines &amp; privacy</h2>
+              <ul class="list-disc pl-6 space-y-1">
+                <li>Be friendly and discreet — it's a public bar.</li>
+                <li>Consent and respect apply to conversation too; see the full
+                  <a href="https://panaceaparties.co.uk/faq/" target="_blank" rel="noopener noreferrer"
+                     class="underline underline-offset-2 hover:underline-offset-4">FAQ</a>.
+                </li>
+                <li>No photos of other guests, and please don't share who you saw there.</li>
+              </ul>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Accessibility</h2>
+              <p>
+                The munch is on the first floor of the West 12 shopping centre, reached by lift. Food and soft drinks are served, so it isn't alcohol-centred.
+                At Panacea's parties, the venue's ground floor is step-free from the street; the upper floor is stairs only, though the crew are happy to help anyone who needs it.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">What people say</h2>
+              <p class="text-sm opacity-80">
+                Trustpilot: 4.5 from 15 reviews — <a href="https://uk.trustpilot.com/review/polyplayparties.co.uk" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4">read the reviews</a>
+              </p>
+              <blockquote class="border-l-4 border-black/20 pl-4 italic">
+                "Run by some really lovely/kind people... It's always felt like a very safe, friendly and comfortable environment, and feels very queer friendly.
+                Highly recommend (especially for a first-timer experience)!"
+              </blockquote>
+              <blockquote class="border-l-4 border-black/20 pl-4 italic">
+                "Lovely friendly people... made us newbies feel very welcome and comfortable."
+              </blockquote>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Where it's based</h2>
+              <p>
+                The Central Bar (Wetherspoon), 1st floor, West 12 Shopping Centre, Shepherd's Bush Green, London W12 8PH — opposite Shepherd's Bush Central line station.
+              </p>
+            </section>
+
+            <!-- Venue map -->
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Location</h2>
+              <div class="rounded-xl overflow-hidden ring-1 ring-black/10 aspect-square">
+                <iframe
+                  src="https://www.google.com/maps?q=The+Central+Bar,+West+12+Shopping+Centre,+Shepherd%27s+Bush+Green,+London+W12+8PH&output=embed"
+                  class="w-full h-full border-0"
+                  loading="lazy"
+                  title="Map showing The Central Bar, West 12 Shopping Centre, Shepherd's Bush"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+              <p>
+                <a href="https://www.google.com/maps?q=The+Central+Bar,+West+12+Shopping+Centre,+Shepherd%27s+Bush+Green,+London+W12+8PH"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4">
+                  Open in Google Maps
+                </a>
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Also from Panacea</h2>
+              <p>
+                Panacea also runs consent-first play parties for the poly/ENM community (next: Sunday 7 February 2027), and is thinking about other kinds
+                of events too — ideas are always welcome at <a href="mailto:hello@panaceaparties.co.uk" class="underline underline-offset-2 hover:underline-offset-4">hello@panaceaparties.co.uk</a>.
+                More at <a href="https://panaceaparties.co.uk" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:underline-offset-4">panaceaparties.co.uk</a>.
+              </p>
+            </section>
+
+          </section>
+
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <!--#include virtual="/includes/footer.html" -->
+
+    </div>
+  </body>
+  </html>

@@ -53,43 +53,11 @@
   <div class="space-y-4">
 
   <a
-  href="/community-pages/yorkshire-open.shtml"
+  href="/community-pages/big-feelings-enm.shtml"
   class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
   >
-  <strong>Yorkshire O.P.E.N</strong><br>
-  Support group and community for people interested in ethically non-monogamous relationships in Yorkshire.
-  </a>
-
-  <a
-  href="/community-pages/east-of-england.shtml"
-  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
-  >
-  <strong>East of England Polyamory</strong><br>
-  A warm and welcoming space for both the poly-curious and the poly-experienced.
-  </a>
-
-  <a
-  href="/community-pages/uk-poly-list.shtml"
-  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
-  >
-  <strong>UK-Poly email list</strong><br>
-  Long-running UK mailing list for discussion and community around polyamory.
-  </a>
-
-  <a
-  href="/community-pages/bristol-south-west-polyamory.shtml"
-  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
-  >
-  <strong>Bristol and South West Polyamory Social Group</strong><br>
-  Long-running in-person polyamory social group in Bristol with monthly meetups and community events.
-  </a>
-
-  <a
-  href="/community-pages/northampton-polyamory-enm.shtml"
-  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
-  >
-  <strong>Northampton Polyamory &amp; ENM Meet Up Group</strong><br>
-  Monthly in-person meet-ups and an online community for ENM folk in Northamptonshire and surrounding areas.
+  <strong>Big Feelings ENM</strong><br>
+  Social and sharing circle for ENM folx in London — a non-judgemental space for vulnerability and community in non-monogamy.
   </a>
 
   <a
@@ -101,15 +69,22 @@
   </a>
 
   <a
-    <a
-    href="/community-pages/big-feelings-enm.shtml"
-    class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
-    >
-    <strong>Big Feelings ENM</strong><br>
-    Social and sharing circle for ENM folx in London — a non-judgemental space for vulnerability and community in non-monogamy.
-    </a>
+  href="/community-pages/bristol-south-west-polyamory.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>Bristol and South West Polyamory Social Group</strong><br>
+  Long-running in-person polyamory social group in Bristol with monthly meetups and community events.
+  </a>
 
-    <a
+  <a
+  href="/community-pages/east-of-england.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>East of England Polyamory</strong><br>
+  A warm and welcoming space for both the poly-curious and the poly-experienced.
+  </a>
+
+  <a
   href="/community-pages/enm-brighton.shtml"
   class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
   >
@@ -123,6 +98,38 @@
   >
   <strong>Ipswich Poly Munch</strong><br>
   Monthly in-person social and discussion group in Ipswich, covering Essex, Suffolk and Norfolk.
+  </a>
+
+  <a
+  href="/community-pages/london-poly-munch.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>London Poly Munch</strong><br>
+  Relaxed monthly pub social for poly, ENM and curious people in west London, run by Panacea.
+  </a>
+
+  <a
+  href="/community-pages/northampton-polyamory-enm.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>Northampton Polyamory &amp; ENM Meet Up Group</strong><br>
+  Monthly in-person meet-ups and an online community for ENM folk in Northamptonshire and surrounding areas.
+  </a>
+
+  <a
+  href="/community-pages/uk-poly-list.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>UK-Poly email list</strong><br>
+  Long-running UK mailing list for discussion and community around polyamory.
+  </a>
+
+  <a
+  href="/community-pages/yorkshire-open.shtml"
+  class="block p-4 rounded-xl bg-white/20 hover:bg-white/30 transition"
+  >
+  <strong>Yorkshire O.P.E.N</strong><br>
+  Support group and community for people interested in ethically non-monogamous relationships in Yorkshire.
   </a>
 
   </div>
