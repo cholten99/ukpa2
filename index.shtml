@@ -57,14 +57,51 @@
           <article class="w-full space-y-4">
             <h1 class="text-2xl font-extrabold">Introduction to the UKPA</h1>
 
-              <video
-                class="pt-4 w-full overflow-hidden rounded-lg aspect-video"
-                controls
-                preload="metadata"
-              >
-                <source src="/video/UKPA_website_video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+              <div class="relative mt-4">
+                <video
+                  id="intro-video"
+                  class="w-full overflow-hidden rounded-lg aspect-video bg-white"
+                  controls
+                  preload="none"
+                  poster="/images/video-poster.jpg"
+                >
+                  <source src="/video/UKPA_website_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+
+                <!-- Click-to-play overlay: poster still + label, removed once playback starts -->
+                <button
+                  id="intro-video-play"
+                  type="button"
+                  class="group absolute inset-0 w-full h-full rounded-lg overflow-hidden cursor-pointer
+                         focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-600"
+                  aria-label="Play the Introduction to the UKPA video"
+                  hidden
+                >
+                  <img src="/images/video-poster.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
+                  <span class="absolute inset-0 bg-black/10 group-hover:bg-black/25 transition-colors"></span>
+                  <span class="absolute inset-0 flex flex-col items-center justify-end pb-6 gap-2">
+                    <span class="inline-flex items-center gap-3 px-5 py-3 rounded-full bg-red-400 text-white text-lg font-bold shadow-lg
+                                 group-hover:brightness-95 group-hover:scale-105 transition">
+                      <svg viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                      Click to play video
+                    </span>
+                    <span class="text-sm font-semibold text-black/70 bg-white/80 rounded px-2">1 min 35 sec</span>
+                  </span>
+                </button>
+                <script>
+                  (() => {
+                    const video = document.getElementById('intro-video');
+                    const btn = document.getElementById('intro-video-play');
+                    btn.hidden = false;
+                    btn.addEventListener('click', () => {
+                      btn.remove();
+                      video.play();
+                      video.focus();
+                    });
+                  })();
+                </script>
+              </div>
 
           </article>
         </section>
