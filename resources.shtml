@@ -33,7 +33,7 @@
           <h1 class="text-2xl font-extrabold">UKPA Resources</h1>
 
           <p>
-            Materials produced by the UK Polyamory Association. You're welcome to download, print and share them.
+            Documents from the UK Polyamory Association, plus useful guides from the wider community. You're welcome to download, print and share our materials.
             Click a document to open it.
           </p>
 
@@ -43,8 +43,27 @@
                target="_blank" rel="noopener" class="underline underline-offset-2 hover:underline-offset-4">polyamory resources list</a>.
           </p>
 
+          <h2 class="text-xl font-extrabold pt-4">UKPA documents</h2>
+
           <!-- One card per document: thumbnail links to the PDF, extra formats underneath -->
-          <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 pt-2">
+          <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            <li class="flex flex-col gap-2">
+              <a href="/resources/UKPA-Annual-Report-2026.pdf" target="_blank" rel="noopener"
+                 class="group block rounded-lg overflow-hidden bg-white shadow hover:shadow-lg transition
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                <img src="/resources/thumbs/ukpa-annual-report-2026.jpg" alt="UKPA Annual Report 2026" loading="lazy"
+                     class="w-full h-auto group-hover:opacity-90">
+              </a>
+              <div class="text-base leading-snug">
+                <a href="/resources/UKPA-Annual-Report-2026.pdf" target="_blank" rel="noopener" class="font-semibold hover:underline">Annual Report 2026</a>
+                <span class="opacity-70">(PDF, 9 pages, 0.8 MB)</span>
+                <div class="text-sm mt-1">
+                  Watch the
+                  <a href="https://youtu.be/Eqk4rPkbKEo" target="_blank" rel="noopener" class="underline underline-offset-2">AGM video</a>.
+                </div>
+              </div>
+            </li>
+
             <li class="flex flex-col gap-2">
               <a href="/resources/ukpa-flyer-a4.pdf" target="_blank" rel="noopener"
                  class="group block rounded-lg overflow-hidden bg-white shadow hover:shadow-lg transition
@@ -61,6 +80,32 @@
                   or
                   <a href="/resources/ukpa-flyer-2-per-page.jpg" target="_blank" rel="noopener" class="underline underline-offset-2">two per page</a>
                   (prints as A5 flyers).
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <h2 class="text-xl font-extrabold pt-6">For community group organisers</h2>
+
+          <p>
+            Running a local polyamory or non-monogamy group, or thinking of starting one? These are worth a read.
+            Find existing groups on our <a href="/community.shtml" class="underline underline-offset-2 hover:underline-offset-4">Community page</a>.
+          </p>
+
+          <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <li class="flex flex-col gap-2">
+              <a href="https://www.y-open.org.uk/blog/building-to-last/" target="_blank" rel="noopener noreferrer"
+                 class="group block rounded-lg overflow-hidden bg-white shadow hover:shadow-lg transition
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                <img src="/resources/thumbs/yopen-building-to-last.jpg" alt="Yorkshire O.P.E.N logo" loading="lazy"
+                     class="w-full h-auto group-hover:opacity-90">
+              </a>
+              <div class="text-base leading-snug">
+                <a href="https://www.y-open.org.uk/blog/building-to-last/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Building to Last</a>
+                <span class="opacity-70">(article)</span>
+                <div class="text-sm mt-1">
+                  How <a href="/community-pages/yorkshire-open.shtml" class="underline underline-offset-2">Yorkshire O.P.E.N</a>
+                  has stayed inclusive and self-supporting since 2012, from Quinn's Polyday 2026 workshop.
                 </div>
               </div>
             </li>
