@@ -53,11 +53,31 @@
             </a>.
           </p>
 
-          <h2 class="text-2xl font-bold">Cookies</h2>
+          <h2 class="text-2xl font-bold">Cookies and advertising tracking</h2>
           <p>
-            Cookies are text files placed on your computer to collect standard internet log information and visitor behaviour information.
-            Our website does not use cookies. Some third-party services we link to (for example, donation processors) may use minimal cookies.
-            Check your browser settings for further information.
+            Cookies are small text files that a website places in your browser, for example to recognise you on a later visit.
+          </p>
+          <p>
+            Every page on our website includes the Google Ads tag, provided by Google. When you visit a page, it sets cookies in
+            your browser and sends Google information about your visit, including your IP address, the page you looked at,
+            the page you came from, and details of your browser and device. We use it to measure how well any adverts we
+            run for the UKPA work, for example how many people who click an advert go on to visit particular pages.
+            We are not running any adverts at the moment, but may do again in future.
+          </p>
+          <p>
+            Google handles this information under its own
+            <a href="https://policies.google.com/privacy" class="underline underline-offset-2 hover:underline-offset-4">privacy policy</a>.
+            You can control how Google uses information for advertising in
+            <a href="https://myadcenter.google.com/" class="underline underline-offset-2 hover:underline-offset-4">My Ad Center</a>,
+            and you can block or delete cookies in your browser settings or with a tracker blocker. Our website works without them.
+          </p>
+          <p>
+            Our map of UK groups shows map images from OpenStreetMap. When you view it, your browser fetches those images from
+            the OpenStreetMap Foundation's servers, which receive your IP address. They don't set tracking cookies; see the
+            <a href="https://osmfoundation.org/wiki/Privacy_Policy" class="underline underline-offset-2 hover:underline-offset-4">OpenStreetMap Foundation privacy policy</a>.
+          </p>
+          <p>
+            Some third-party services we link to (for example, donation processors) may use their own cookies.
           </p>
 
           <h2 class="text-2xl font-bold">Privacy policies of other websites</h2>
@@ -69,7 +89,7 @@
           <h2 class="text-2xl font-bold">Changes to our privacy policy</h2>
           <p>
             The UKPA keeps its privacy policy under regular review and places any updates on this page.
-            This privacy policy was last updated on 21 October 2025.
+            This privacy policy was last updated on 14 November 2026.
           </p>
 
           <h2 class="text-2xl font-bold">How to contact us</h2>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17876605291');
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>Map of UK groups - UK Polyamory Association</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Not linked from the site yet: keep it out of search engines until it is. -->
+  <meta name="robots" content="noindex" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+        integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+  <style>
+    #groups-map { height: 70vh; min-height: 360px; max-height: 640px; border-radius: 1rem; z-index: 0; }
+    .leaflet-popup-content { font-size: 0.95rem; line-height: 1.4; margin: 12px 14px; }
+    .leaflet-popup-content h3 { font-weight: 700; margin-bottom: 4px; }
+    .leaflet-popup-content ul { margin: 0; padding: 0; list-style: none; }
+    .leaflet-popup-content li + li { margin-top: 6px; }
+    .leaflet-popup-content a, #national-list a, #area-list a { text-decoration: underline; text-underline-offset: 2px; }
+    .map-note { font-size: 0.8rem; opacity: 0.8; }
+  </style>
+</head>
+
+<body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Content -->
+    <main id="main" class="md:col-span-2">
+      <div class="grid grid-cols-1 gap-2">
+
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+          <article class="space-y-4">
+            <h1 class="text-2xl font-extrabold">Map of UK polyamory groups</h1>
+            <p>
+              Polyamory and ENM groups around the UK. Each pin marks the area a group covers, not where it meets.
+              Tap or click a pin to see the groups there.
+            </p>
+            <p class="text-sm opacity-80">
+              Please contact each group directly for the latest details. UKPA does not directly endorse any group listed.
+              The same groups are listed in the
+              <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="/uk-groups-directory.shtml">directory</a>
+              and on our <a class="underline underline-offset-2 hover:underline-offset-4 font-semibold" href="/community-pages/index.shtml">group pages</a>.
+            </p>
+          </article>
+        </section>
+
+        <section class="p-4 md:p-6 rounded-2xl ukpa-bg-cell shadow">
+          <div id="groups-map" role="region" aria-label="Map of UK polyamory groups"></div>
+          <p class="map-note mt-2">
+            Map data from OpenStreetMap. Loading the map sends your IP address to the OpenStreetMap Foundation;
+            see our <a class="underline" href="/privacy.shtml">privacy policy</a>.
+          </p>
+          <p id="map-error" class="mt-2" hidden>
+            The map couldn't load. All the groups are listed below and in the
+            <a class="underline" href="/uk-groups-directory.shtml">directory</a>.
+          </p>
+        </section>
+
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+          <article class="space-y-3">
+            <h2 class="text-2xl font-extrabold">National and online groups</h2>
+            <p class="text-base">These are open to people anywhere in the UK, so they aren't on the map.</p>
+            <ul id="national-list" class="list-disc pl-6 space-y-1 text-base"></ul>
+          </article>
+        </section>
+
+        <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
+          <details>
+            <summary class="cursor-pointer font-bold">All groups by area (the map as a list)</summary>
+            <dl id="area-list" class="mt-4 space-y-3 text-base"></dl>
+          </details>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
+          integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    // Groups come from /assets/groups-map.json, built by tools/build-groups-map.py
+    // from the directory and the group pages.
+    (function () {
+      var esc = function (s) {
+        return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+          return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+        });
+      };
+
+      function groupHtml(g) {
+        var name = g.url
+          ? '<a href="' + esc(g.url) + '" target="_blank" rel="noopener noreferrer">' + esc(g.name) + '</a>'
+          : (g.page ? '<a href="' + esc(g.page) + '">' + esc(g.name) + '</a>' : esc(g.name));
+        var extra = [];
+        if (g.format) extra.push(esc(g.format));
+        if (g.page && g.url) extra.push('<a href="' + esc(g.page) + '">more on this site</a>');
+        return name + (extra.length ? ' <span style="opacity:.75">(' + extra.join(", ") + ')</span>' : "");
+      }
+
+      function showError() { document.getElementById("map-error").hidden = false; }
+
+      fetch("/assets/groups-map.json", { cache: "no-cache" })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (data) {
+          // national / online list
+          document.getElementById("national-list").innerHTML = data.national.map(function (g) {
+            return "<li>" + groupHtml(g) + "</li>";
+          }).join("");
+
+          // the same pins as a plain list
+          document.getElementById("area-list").innerHTML = data.areas.map(function (a) {
+            return "<div><dt class='font-semibold'>" + esc(a.area) + "</dt><dd><ul class='list-disc pl-6'>" +
+              a.groups.map(function (g) { return "<li>" + groupHtml(g) + "</li>"; }).join("") + "</ul></dd></div>";
+          }).join("");
+
+          if (typeof L === "undefined") { showError(); return; }
+          var map = L.map("groups-map", { scrollWheelZoom: false, zoomSnap: 0.5 });
+          L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            maxZoom: 18,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
+          // let the page scroll past the map; zoom with the wheel once it's clicked
+          map.on("click", function () { map.scrollWheelZoom.enable(); });
+          map.on("mouseout", function () { map.scrollWheelZoom.disable(); });
+
+          var bounds = [];
+          data.areas.forEach(function (a) {
+            var n = a.groups.length;
+            var marker = L.circleMarker([a.lat, a.lon], {
+              radius: Math.min(16, 8 + 3 * (n - 1)),
+              color: "#ffffff", weight: 2, fillColor: "#dc2626", fillOpacity: 0.9
+            }).addTo(map);
+            marker.bindTooltip(esc(a.area) + (n > 1 ? " (" + n + " groups)" : ""));
+            marker.bindPopup("<h3>" + esc(a.area) + "</h3><ul>" +
+              a.groups.map(function (g) { return "<li>" + groupHtml(g) + "</li>"; }).join("") + "</ul>",
+              { maxWidth: 280 });
+            bounds.push([a.lat, a.lon]);
+          });
+          map.fitBounds(bounds, { padding: [24, 24] });
+        })
+        .catch(showError);
+    })();
+  </script>
+</body>
+</html>

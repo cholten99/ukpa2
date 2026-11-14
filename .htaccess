@@ -15,3 +15,6 @@ RedirectMatch 404 "^/\.git($|/)"
 <FilesMatch "\.(bak|old|orig|save|sql)[-._~]">
     Require all denied
 </FilesMatch>
+
+# Build scripts and their caches (tools/build-groups-map.py) aren't part of the site
+RedirectMatch 404 "^/tools($|/)"

@@ -1,0 +1,597 @@
+{
+ "areas": [
+  {
+   "area": "Birmingham",
+   "lat": 52.4949,
+   "lon": -1.8518,
+   "groups": [
+    {
+     "name": "Birmingham Polyamory Support Group",
+     "page": "/community-pages/polyamory-support-group.shtml"
+    }
+   ]
+  },
+  {
+   "area": "Bournemouth",
+   "lat": 50.7447,
+   "lon": -1.858,
+   "groups": [
+    {
+     "name": "Bournemouth Polyamory Group",
+     "url": "https://www.facebook.com/groups/3537317482969782/"
+    }
+   ]
+  },
+  {
+   "area": "Brighton",
+   "lat": 50.8215,
+   "lon": -0.1401,
+   "groups": [
+    {
+     "name": "Brighton ENM & Polyamory Society",
+     "url": "https://www.facebook.com/groups/128246394323/",
+     "format": "In-person"
+    },
+    {
+     "name": "ENM Brighton",
+     "page": "/community-pages/enm-brighton.shtml"
+    }
+   ]
+  },
+  {
+   "area": "Bristol",
+   "lat": 51.443,
+   "lon": -2.5817,
+   "groups": [
+    {
+     "name": "Bristol & South West Polyamory Social Group",
+     "url": "https://www.facebook.com/groups/620520908071128",
+     "page": "/community-pages/bristol-south-west-polyamory.shtml"
+    }
+   ]
+  },
+  {
+   "area": "Cambridge",
+   "lat": 52.1976,
+   "lon": 0.1392,
+   "groups": [
+    {
+     "name": "Cambridge Polyamory Meetup",
+     "url": "https://www.meetup.com/cambridge-polyamory-meetup/",
+     "format": "In-person"
+    }
+   ]
+  },
+  {
+   "area": "Cambridgeshire",
+   "lat": 52.3729,
+   "lon": -0.0449,
+   "groups": [
+    {
+     "name": "East of England Polyamory",
+     "page": "/community-pages/east-of-england.shtml"
+    }
+   ]
+  },
+  {
+   "area": "Cardiff",
+   "lat": 51.4817,
+   "lon": -3.1792,
+   "groups": [
+    {
+     "name": "Cardiff Polyamory Meetup",
+     "url": "https://www.meetup.com/cardiff-polyamory-meetup/"
+    }
+   ]
+  },
+  {
+   "area": "Cheshire",
+   "lat": 53.2141,
+   "lon": -2.4718,
+   "groups": [
+    {
+     "name": "Cheshire Polyamory",
+     "url": "https://www.facebook.com/groups/184827718596952/"
+    }
+   ]
+  },
+  {
+   "area": "Chesterfield",
+   "lat": 53.2352,
+   "lon": -1.4264,
+   "groups": [
+    {
+     "name": "Chesterfield UK Polyamory",
+     "url": "https://www.facebook.com/groups/269193923749502/"
+    }
+   ]
+  },
+  {
+   "area": "Coventry",
+   "lat": 52.4082,
+   "lon": -1.5105,
+   "groups": [
+    {
+     "name": "Coventry Polyamory",
+     "url": "https://www.facebook.com/groups/231971491493613/"
+    }
+   ]
+  },
+  {
+   "area": "Derby",
+   "lat": 52.9142,
+   "lon": -1.472,
+   "groups": [
+    {
+     "name": "Derby Polyamory Meetup",
+     "url": "https://www.meetup.com/derby-polyamory-meetup/"
+    }
+   ]
+  },
+  {
+   "area": "Devon",
+   "lat": 50.7241,
+   "lon": -3.6608,
+   "groups": [
+    {
+     "name": "Devon Polyamory Social Group",
+     "url": "https://www.facebook.com/groups/1966245451632292/",
+     "format": "In-person"
+    }
+   ]
+  },
+  {
+   "area": "Dorset",
+   "lat": 50.7968,
+   "lon": -2.3447,
+   "groups": [
+    {
+     "name": "Dorset Polyamory",
+     "url": "https://www.facebook.com/groups/270693983308518/"
+    }
+   ]
+  },
+  {
+   "area": "Edinburgh",
+   "lat": 55.9533,
+   "lon": -3.1884,
+   "groups": [
+    {
+     "name": "Edinburgh Polyamory",
+     "url": "https://www.meetup.com/edinburgh-polyamory/"
+    }
+   ]
+  },
+  {
+   "area": "Essex",
+   "lat": 51.7705,
+   "lon": 0.4647,
+   "groups": [
+    {
+     "name": "Essex Polyamory",
+     "url": "https://www.meetup.com/essex-polyamory/"
+    }
+   ]
+  },
+  {
+   "area": "Glasgow",
+   "lat": 55.8612,
+   "lon": -4.2502,
+   "groups": [
+    {
+     "name": "Glasgow Polyamory",
+     "url": "https://www.facebook.com/groups/207741704588041/"
+    }
+   ]
+  },
+  {
+   "area": "Hull",
+   "lat": 53.7624,
+   "lon": -0.3301,
+   "groups": [
+    {
+     "name": "Hull Polyamory",
+     "url": "https://www.facebook.com/groups/522933881839419/"
+    }
+   ]
+  },
+  {
+   "area": "Ipswich",
+   "lat": 52.0579,
+   "lon": 1.1528,
+   "groups": [
+    {
+     "name": "Ipswich Poly Munch",
+     "page": "/community-pages/ipswich-poly-munch.shtml"
+    }
+   ]
+  },
+  {
+   "area": "Kent",
+   "lat": 51.2071,
+   "lon": 0.721,
+   "groups": [
+    {
+     "name": "Kent Polyamory",
+     "url": "https://www.meetup.com/kent-polyamory/"
+    }
+   ]
+  },
+  {
+   "area": "Leeds",
+   "lat": 53.7974,
+   "lon": -1.5438,
+   "groups": [
+    {
+     "name": "Leeds Polyamory Meetup",
+     "url": "https://www.meetup.com/leeds-polyamory-meetup/"
+    }
+   ]
+  },
+  {
+   "area": "Leicester",
+   "lat": 52.6362,
+   "lon": -1.1332,
+   "groups": [
+    {
+     "name": "Leicester Polyamory Meetup",
+     "url": "https://www.meetup.com/leicester-polyamory-meetup/"
+    }
+   ]
+  },
+  {
+   "area": "Lincolnshire",
+   "lat": 53.1823,
+   "lon": -0.2031,
+   "groups": [
+    {
+     "name": "Lincolnshire Polyamory",
+     "url": "https://www.facebook.com/groups/211423106187421/"
+    }
+   ]
+  },
+  {
+   "area": "Liverpool",
+   "lat": 53.3933,
+   "lon": -2.9166,
+   "groups": [
+    {
+     "name": "Liverpool Polyamory",
+     "url": "https://www.meetup.com/liverpool-polyamory/",
+     "format": "In-person"
+    }
+   ]
+  },
+  {
+   "area": "London",
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "groups": [
+    {
+     "name": "Big Feelings ENM",
+     "url": "https://www.bigfeelings.uk/community-social-enm",
+     "page": "/community-pages/big-feelings-enm.shtml"
+    },
+    {
+     "name": "ENM & Polyamory London",
+     "url": "https://www.meetup.com/enm-polyamory-london/"
+    },
+    {
+     "name": "London Polyamory Meetup",
+     "url": "https://www.meetup.com/london-polyamory/",
+     "format": "In-person"
+    },
+    {
+     "name": "London Poly Munch",
+     "page": "/community-pages/london-poly-munch.shtml"
+    }
+   ]
+  },
+  {
+   "area": "Manchester",
+   "lat": 53.4425,
+   "lon": -2.2325,
+   "groups": [
+    {
+     "name": "Greater Manchester Polyamory",
+     "url": "https://www.facebook.com/groups/802859223265415/",
+     "format": "In-person"
+    },
+    {
+     "name": "Manchester Polyamory",
+     "url": "https://www.meetup.com/manchester-polyamory/",
+     "format": "In-person"
+    },
+    {
+     "name": "Manchester Poly Meet",
+     "url": "https://www.facebook.com/groups/Manchester.poly.meet/"
+    }
+   ]
+  },
+  {
+   "area": "Milton Keynes",
+   "lat": 52.0407,
+   "lon": -0.7594,
+   "groups": [
+    {
+     "name": "Milton Keynes Polyamory Meetup",
+     "url": "https://www.meetup.com/milton-keynes-polyamory-meetup/"
+    }
+   ]
+  },
+  {
+   "area": "Newcastle",
+   "lat": 54.9738,
+   "lon": -1.6132,
+   "groups": [
+    {
+     "name": "Newcastle Polyamory",
+     "url": "https://www.meetup.com/newcastle-polyamory/"
+    }
+   ]
+  },
+  {
+   "area": "Norfolk",
+   "lat": 52.6667,
+   "lon": 1.0,
+   "groups": [
+    {
+     "name": "Norfolk Polyamory",
+     "url": "https://www.facebook.com/groups/695491145030595/",
+     "format": "In-person"
+    }
+   ]
+  },
+  {
+   "area": "North East",
+   "lat": 55.1314,
+   "lon": -2.0723,
+   "groups": [
+    {
+     "name": "North East Polyamory",
+     "url": "https://www.facebook.com/groups/1489960024801084/"
+    }
+   ]
+  },
+  {
+   "area": "Northampton",
+   "lat": 52.2343,
+   "lon": -0.9028,
+   "groups": [
+    {
+     "name": "Northampton Polyamory & ENM Meet Up Group",
+     "page": "/community-pages/northampton-polyamory-enm.shtml"
+    }
+   ]
+  },
+  {
+   "area": "Nottingham",
+   "lat": 52.9534,
+   "lon": -1.1496,
+   "groups": [
+    {
+     "name": "Nottingham Polyamory Meetup",
+     "url": "https://www.meetup.com/nottingham-polyamory-meetup/",
+     "format": "In-person"
+    }
+   ]
+  },
+  {
+   "area": "Oxford",
+   "lat": 51.752,
+   "lon": -1.2578,
+   "groups": [
+    {
+     "name": "Oxford Polyamory",
+     "url": "https://www.facebook.com/groups/343176213689970/"
+    }
+   ]
+  },
+  {
+   "area": "Portsmouth",
+   "lat": 50.8,
+   "lon": -1.0906,
+   "groups": [
+    {
+     "name": "Portsmouth Polyamory",
+     "url": "https://www.facebook.com/groups/307360613957931/"
+    }
+   ]
+  },
+  {
+   "area": "Reading",
+   "lat": 51.4564,
+   "lon": -0.9701,
+   "groups": [
+    {
+     "name": "Reading Polyamory",
+     "url": "https://www.facebook.com/groups/ReadingPolyamory/"
+    }
+   ]
+  },
+  {
+   "area": "Scotland",
+   "lat": 56.3959,
+   "lon": -3.4303,
+   "groups": [
+    {
+     "name": "Scotland Polyamory",
+     "url": "https://www.facebook.com/groups/ScotlandPolyamory/"
+    }
+   ]
+  },
+  {
+   "area": "Sheffield",
+   "lat": 53.3807,
+   "lon": -1.4702,
+   "groups": [
+    {
+     "name": "Sheffield Polyamory Meetup",
+     "url": "https://www.meetup.com/sheffield-polyamory-meetup/"
+    }
+   ]
+  },
+  {
+   "area": "South Wales",
+   "lat": 51.62,
+   "lon": -3.55,
+   "groups": [
+    {
+     "name": "South Wales Polyamory",
+     "url": "https://www.facebook.com/groups/1504445529861529/"
+    }
+   ]
+  },
+  {
+   "area": "Southampton",
+   "lat": 50.9025,
+   "lon": -1.4042,
+   "groups": [
+    {
+     "name": "Southampton Polyamory",
+     "url": "https://www.facebook.com/groups/503579637584193/"
+    }
+   ]
+  },
+  {
+   "area": "Suffolk",
+   "lat": 52.241,
+   "lon": 1.0466,
+   "groups": [
+    {
+     "name": "Suffolk Polyamory",
+     "url": "https://www.facebook.com/groups/904043070143783/"
+    }
+   ]
+  },
+  {
+   "area": "Surrey",
+   "lat": 51.2715,
+   "lon": -0.3415,
+   "groups": [
+    {
+     "name": "Guildford & Surrey Polyamory",
+     "url": "https://www.meetup.com/guildford-surrey-polyamory/"
+    },
+    {
+     "name": "Surrey Polyamory",
+     "url": "https://www.facebook.com/groups/285511373137862/"
+    }
+   ]
+  },
+  {
+   "area": "Sussex",
+   "lat": 51.0,
+   "lon": -0.4167,
+   "groups": [
+    {
+     "name": "Sussex Polyamory",
+     "url": "https://www.facebook.com/groups/339161857155615/"
+    }
+   ]
+  },
+  {
+   "area": "Warwickshire",
+   "lat": 52.3213,
+   "lon": -1.5537,
+   "groups": [
+    {
+     "name": "Warwickshire Polyamory",
+     "url": "https://www.facebook.com/groups/WestMidlandsPolyamory/"
+    }
+   ]
+  },
+  {
+   "area": "West Midlands",
+   "lat": 52.5054,
+   "lon": -1.9647,
+   "groups": [
+    {
+     "name": "West Midlands Polyamory",
+     "url": "https://www.facebook.com/groups/WestMidlandsPolyamory/",
+     "format": "In-person"
+    }
+   ]
+  },
+  {
+   "area": "West Yorkshire",
+   "lat": 53.7414,
+   "lon": -1.7202,
+   "groups": [
+    {
+     "name": "West Yorkshire Polyamory",
+     "url": "https://www.facebook.com/groups/817145375584924/"
+    }
+   ]
+  },
+  {
+   "area": "Wigan",
+   "lat": 53.5462,
+   "lon": -2.6319,
+   "groups": [
+    {
+     "name": "Wigan Polyamory",
+     "url": "https://www.facebook.com/groups/501497820643346/"
+    }
+   ]
+  },
+  {
+   "area": "York",
+   "lat": 53.9657,
+   "lon": -1.0743,
+   "groups": [
+    {
+     "name": "York Polyamory",
+     "url": "https://www.meetup.com/york-polyamory/"
+    }
+   ]
+  },
+  {
+   "area": "Yorkshire",
+   "lat": 54.1345,
+   "lon": -1.4986,
+   "groups": [
+    {
+     "name": "Yorkshire Polyamory Network",
+     "url": "https://www.facebook.com/groups/2073115902970629"
+    },
+    {
+     "name": "Yorkshire O.P.E.N",
+     "page": "/community-pages/yorkshire-open.shtml"
+    }
+   ]
+  }
+ ],
+ "national": [
+  {
+   "name": "UK-Poly mailing list",
+   "url": "http://ukpoly.org/",
+   "format": "Online",
+   "page": "/community-pages/uk-poly-list.shtml"
+  },
+  {
+   "name": "UK Polyamory Discord",
+   "url": "https://discord.gg/WRzqJpCFED",
+   "format": "Online"
+  },
+  {
+   "name": "Polyamory UK",
+   "url": "https://polyamoryuk.co.uk/",
+   "format": "Online"
+  },
+  {
+   "name": "Polyamory and Relationship Anarchy UK",
+   "url": "https://www.facebook.com/groups/1506144399603746",
+   "format": "Online"
+  },
+  {
+   "name": "Polyamorous/ENM UK",
+   "url": "https://www.facebook.com/groups/polyenmuk",
+   "format": "Online"
+  },
+  {
+   "name": "Alternative poly UK",
+   "url": "https://www.facebook.com/groups/692772462343077"
+  }
+ ]
+}
