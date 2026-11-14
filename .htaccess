@@ -18,3 +18,6 @@ RedirectMatch 404 "^/\.git($|/)"
 
 # Build scripts and their caches (tools/build-groups-map.py) aren't part of the site
 RedirectMatch 404 "^/tools($|/)"
+
+# Maintainers' docs (README.md etc.) aren't pages for visitors
+RedirectMatch 404 "\.md$"
