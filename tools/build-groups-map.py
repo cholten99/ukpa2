@@ -40,17 +40,16 @@ PAGES = {
     "enm-brighton.shtml": "Brighton",
     "ipswich-poly-munch.shtml": "Ipswich",
     "london-poly-munch.shtml": "London",
+    "london-poly-pub.shtml": "London",
     "northampton-polyamory-enm.shtml": "Northampton",
     "polyamory-support-group.shtml": "Birmingham",
     "uk-poly-list.shtml": None,
     "yorkshire-open.shtml": "Yorkshire",
 }
-SKIP_PAGES = {"index.shtml", "example.shtml",
-              # drafts not linked from the site yet: move to PAGES when they go live
-              # (london-poly-pub: area "London", same group as "London Polyamory Meetup")
-              "london-poly-pub.shtml"}
+SKIP_PAGES = {"index.shtml", "example.shtml"}
 # Pages whose group is named differently in the directory.
-SAME_AS = {"uk-poly-list.shtml": "UK-Poly mailing list"}
+SAME_AS = {"uk-poly-list.shtml": "UK-Poly mailing list",
+           "london-poly-pub.shtml": "London Polyamory Meetup"}
 
 # Areas Nominatim can't place well by name alone.
 QUERY = {

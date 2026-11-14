@@ -279,7 +279,8 @@
     {
      "name": "London Polyamory Meetup",
      "url": "https://www.meetup.com/polylondon/",
-     "format": "In-person"
+     "format": "In-person",
+     "page": "/community-pages/london-poly-pub.shtml"
     },
     {
      "name": "London Poly Munch",
