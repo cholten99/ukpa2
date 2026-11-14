@@ -15,8 +15,6 @@
   <meta charset="UTF-8" />
   <title>Map of UK groups - UK Polyamory Association</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Not linked from the site yet: keep it out of search engines until it is. -->
-  <meta name="robots" content="noindex" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
         integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="

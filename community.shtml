@@ -64,6 +64,23 @@
               Links go to the group’s platform page where we have one.
             </p>
 
+            <!-- Map of groups -->
+            <section class="space-y-2 pt-2 border-t border-black/10">
+              <h3 class="text-xl font-bold">Map of UK groups</h3>
+
+              <p class="text-base md:text-lg leading-relaxed">
+                See every group on a map of the UK, from both the groups with pages on this site and the directory.
+              </p>
+
+              <a
+                href="/groups-map.shtml"
+                class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+              >
+                View the map of groups
+              </a>
+            </section>
+
             <!-- Featured: groups with pages on this site -->
             <section class="space-y-2 pt-2 border-t border-black/10">
               <h3 class="text-xl font-bold">Groups with pages on this site</h3>

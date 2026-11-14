@@ -14,8 +14,6 @@
     <meta charset="UTF-8" />
     <title>London Poly Pub – UK Polyamory Association</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Draft: not linked from the site yet, so keep it out of search engines until it is. -->
-    <meta name="robots" content="noindex" />
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/styles.css" />

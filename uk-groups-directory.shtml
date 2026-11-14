@@ -49,6 +49,14 @@
             >
               Back to Community
             </a>
+
+            <a
+              href="/groups-map.shtml"
+              class="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
+            >
+              View these groups on a map
+            </a>
           </article>
         </section>
 
