@@ -75,6 +75,11 @@
             Our map of UK groups shows map images from OpenStreetMap. When you view it, your browser fetches those images from
             the OpenStreetMap Foundation's servers, which receive your IP address. They don't set tracking cookies; see the
             <a href="https://osmfoundation.org/wiki/Privacy_Policy" class="underline underline-offset-2 hover:underline-offset-4">OpenStreetMap Foundation privacy policy</a>.
+            Most of our group pages show their area or venue on an OpenStreetMap map in the same way.
+          </p>
+          <p>
+            A few group pages show the venue on an embedded Google Map instead. Viewing one of those pages sends Google your IP address and
+            details of the page, and Google may set cookies; this is also covered by Google's privacy policy.
           </p>
           <p>
             Some third-party services we link to (for example, donation processors) may use their own cookies.

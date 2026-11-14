@@ -45,7 +45,10 @@ PAGES = {
     "uk-poly-list.shtml": None,
     "yorkshire-open.shtml": "Yorkshire",
 }
-SKIP_PAGES = {"index.shtml", "example.shtml"}
+SKIP_PAGES = {"index.shtml", "example.shtml",
+              # drafts not linked from the site yet: move to PAGES when they go live
+              # (london-poly-pub: area "London", same group as "London Polyamory Meetup")
+              "london-poly-pub.shtml"}
 # Pages whose group is named differently in the directory.
 SAME_AS = {"uk-poly-list.shtml": "UK-Poly mailing list"}
 

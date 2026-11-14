@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17876605291');
+    </script>
+
+    <meta charset="UTF-8" />
+    <title>London Poly Pub – UK Polyamory Association</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Draft: not linked from the site yet, so keep it out of search engines until it is. -->
+    <meta name="robots" content="noindex" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+  </head>
+
+  <body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+      <!-- Header -->
+      <!--#include virtual="/includes/header.html" -->
+
+      <!-- Main -->
+      <main id="main" class="md:col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+          <!-- LEFT: Key info -->
+          <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
+            <h1 class="text-2xl font-extrabold">London Poly Pub</h1>
+
+            <p>
+              The London Polyamory Meetup Group's monthly pub social: an informal evening for anyone interested in polyamory in its many forms.
+              It has been running for more than 25 years and regularly draws 60 people or more.
+            </p>
+
+            <div class="grid gap-3 mt-1">
+              <a href="https://www.meetup.com/polylondon/" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+                Meetup group
+              </a>
+            </div>
+
+            <div class="pt-2 border-t border-black/10 space-y-2">
+              <p><strong>Type:</strong> In person</p>
+              <p><strong>Area covered:</strong> London (central London venue)</p>
+              <p><strong>Meets:</strong> First Tuesday of every month, from 6pm</p>
+              <p><strong>Cost:</strong> Free; buy your own drinks. A voluntary £1 towards the group's Meetup costs is welcome.</p>
+              <p><strong>Accessibility:</strong> Wheelchair accessible, with a ramp and a buzzer for staff at the entrance steps</p>
+            </div>
+
+            <p class="text-sm opacity-80">
+              Last updated: November 2026
+            </p>
+          </section>
+
+          <!-- RIGHT: Main content -->
+          <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">What it's like</h2>
+              <p>
+                A relaxed, sociable evening in an ordinary pub. People talk about anything from polyamorous life to the weather.
+                It's a social group, not a sex or swingers group, and it isn't a place to look for partners.
+              </p>
+              <p>
+                The group usually gathers towards the back of the pub. It's a big, busy meet, so if you'd prefer somewhere quieter for your first visit,
+                try Poly Coffee (below).
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">How to join</h2>
+              <p>
+                Events are listed on the
+                <a href="https://www.meetup.com/polylondon/" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4 font-semibold">London Polyamory Meetup Group</a>.
+                To join the group you answer two short questions, and the organisers may get in touch before approving you.
+                If you're a couple or more, each person should join with their own account.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Guidelines</h2>
+              <ul class="list-disc pl-6 space-y-1">
+                <li>The meet isn't for cruising or picking up partners. Applications that look like sex-seeking or "unicorn hunting" are turned down.</li>
+                <li>Don't message other members unless you've met them at a meetup and had a proper conversation.</li>
+                <li>Report unwanted "let's meet" or predatory messages to the organisers.</li>
+                <li>Researchers and journalists are asked not to question people at meetups. Contact the organisers instead.</li>
+              </ul>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Accessibility</h2>
+              <p>
+                The pub is wheelchair accessible. There are a couple of steps at the entrance, with a buzzer to call staff and a ramp.
+                If you'd like help on the night, let the organisers know in advance through the Meetup group.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Where it's based</h2>
+              <p>
+                The Sir John Oldcastle (Wetherspoon), 29–35 Farringdon Road, London EC1M 3JF, a short walk from Farringdon station.
+                Check the Meetup group before you go in case the venue changes.
+              </p>
+            </section>
+
+            <!-- Venue map -->
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Location</h2>
+              <div class="rounded-xl overflow-hidden ring-1 ring-black/10" style="height:280px">
+                <div id="map-london-poly-pub" style="height:100%;width:100%"></div>
+              </div>
+              <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+              <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+              <script>
+                (function(){
+                  var venue = [51.5198, -0.1060];
+                  var m = L.map('map-london-poly-pub',{scrollWheelZoom:false}).setView(venue, 16);
+                  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+                    attribution:'&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',maxZoom:19
+                  }).addTo(m);
+                  L.circleMarker(venue,{radius:9,color:'#ffffff',weight:2,fillColor:'#dc2626',fillOpacity:1})
+                    .addTo(m).bindPopup('The Sir John Oldcastle, 29–35 Farringdon Road');
+                })();
+              </script>
+              <p>
+                <a href="https://www.openstreetmap.org/?mlat=51.5198&amp;mlon=-0.1060#map=17/51.5198/-0.1060"
+                   target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4">
+                  Open a larger map
+                </a>
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Also from this group</h2>
+              <ul class="list-disc pl-6 space-y-1">
+                <li><strong>Poly Coffee:</strong> a smaller, quieter meet (up to 45 people) in a central London coffee shop, with no alcohol.
+                  It's more focused on poly topics and has a "poly 101" session for newcomers.</li>
+                <li><strong>Online poly meetup:</strong> every third Tuesday, 7–10pm, by video call, with audio-only and text options.</li>
+                <li><strong>Poly Womxn's group:</strong> for people who don't identify as cis men and are interested in polyamory.</li>
+              </ul>
+              <p>All of these are listed on the
+                <a href="https://www.meetup.com/polylondon/" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4">Meetup group</a>.
+              </p>
+            </section>
+
+          </section>
+
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <!--#include virtual="/includes/footer.html" -->
+
+    </div>
+  </body>
+  </html>
