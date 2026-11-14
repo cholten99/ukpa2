@@ -31,6 +31,18 @@
     .leaflet-popup-content li + li { margin-top: 6px; }
     .leaflet-popup-content a, #national-list a, #area-list a { text-decoration: underline; text-underline-offset: 2px; }
     .map-note { font-size: 0.8rem; opacity: 0.8; }
+    /* pins: filled red = group has a page on this site; hollow grey = from
+       the directory, not confirmed as current (fill vs hollow so the two
+       differ without relying on colour alone) */
+    .pin { width: 100%; height: 100%; border-radius: 50%; box-sizing: border-box;
+           box-shadow: 0 1px 3px rgb(0 0 0 / 35%); }
+    .pin-page { background: #dc2626; border: 2px solid #ffffff; }
+    .pin-other { background: #ffffff; border: 4px solid #64748b; }
+    .key-dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; vertical-align: -2px;
+               margin: 0 4px 0 6px; box-sizing: border-box; }
+    .key-page { background: #dc2626; border: 2px solid #ffffff; box-shadow: 0 0 0 1px #dc2626; }
+    .key-other { background: #ffffff; border: 3px solid #64748b; }
+    .page-tag { font-size: 0.8em; white-space: nowrap; }
   </style>
 </head>
 
@@ -46,9 +58,16 @@
         <section class="p-8 rounded-2xl ukpa-bg-cell shadow">
           <article class="space-y-4">
             <h1 class="text-2xl font-extrabold">Map of UK polyamory groups</h1>
+            <p class="text-sm opacity-80" id="map-updated" hidden></p>
             <p>
               Polyamory and ENM groups around the UK. Each pin marks the area a group covers, not where it meets.
               Tap or click a pin to see the groups there.
+            </p>
+            <p class="rounded-xl bg-white/40 p-4 text-base">
+              <strong>Please check before going along.</strong>
+              <span class="key-dot key-page" aria-hidden="true"></span><strong>Red pins</strong> are groups with their own page on this site.
+              <span class="key-dot key-other" aria-hidden="true"></span><strong>Grey pins</strong> are groups from our directory of groups on other
+              platforms. We haven't confirmed that these are still running, so details may be out of date.
             </p>
             <p class="text-sm opacity-80">
               Please contact each group directly for the latest details. UKPA does not directly endorse any group listed.
@@ -107,13 +126,25 @@
       };
 
       function groupHtml(g) {
-        var name = g.url
-          ? '<a href="' + esc(g.url) + '" target="_blank" rel="noopener noreferrer">' + esc(g.name) + '</a>'
-          : (g.page ? '<a href="' + esc(g.page) + '">' + esc(g.name) + '</a>' : esc(g.name));
+        var dot = '<span class="key-dot ' + (g.page ? "key-page" : "key-other") + '" aria-hidden="true"></span>';
+        var name = g.page
+          ? '<a href="' + esc(g.page) + '">' + esc(g.name) + '</a>'
+          : (g.url ? '<a href="' + esc(g.url) + '" target="_blank" rel="noopener noreferrer">' + esc(g.name) + '</a>' : esc(g.name));
         var extra = [];
         if (g.format) extra.push(esc(g.format));
-        if (g.page && g.url) extra.push('<a href="' + esc(g.page) + '">more on this site</a>');
-        return name + (extra.length ? ' <span style="opacity:.75">(' + extra.join(", ") + ')</span>' : "");
+        if (g.page && g.url) extra.push('<a href="' + esc(g.url) + '" target="_blank" rel="noopener noreferrer">their own site</a>');
+        extra.push(g.page ? "page on this site" : "not confirmed as current");
+        return dot + name + ' <span class="page-tag" style="opacity:.75">(' + extra.join(", ") + ')</span>';
+      }
+
+      function pin(kind, n, shift) {
+        var size = Math.min(30, 16 + 5 * (n - 1));
+        return L.divIcon({
+          className: "", html: '<div class="pin pin-' + kind + '"></div>',
+          iconSize: [size, size],
+          // an area with both kinds gets two pins side by side
+          iconAnchor: [size / 2 - shift, size / 2], popupAnchor: [shift, -size / 2]
+        });
       }
 
       function showError() { document.getElementById("map-error").hidden = false; }
@@ -121,6 +152,13 @@
       fetch("/assets/groups-map.json", { cache: "no-cache" })
         .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
         .then(function (data) {
+          if (data.updated) {
+            var el = document.getElementById("map-updated");
+            var d = new Date(data.updated + "T12:00:00Z");
+            el.textContent = "Last updated: " + d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+            el.hidden = false;
+          }
+
           // national / online list
           document.getElementById("national-list").innerHTML = data.national.map(function (g) {
             return "<li>" + groupHtml(g) + "</li>";
@@ -144,15 +182,26 @@
 
           var bounds = [];
           data.areas.forEach(function (a) {
-            var n = a.groups.length;
-            var marker = L.circleMarker([a.lat, a.lon], {
-              radius: Math.min(16, 8 + 3 * (n - 1)),
-              color: "#ffffff", weight: 2, fillColor: "#dc2626", fillOpacity: 0.9
-            }).addTo(map);
-            marker.bindTooltip(esc(a.area) + (n > 1 ? " (" + n + " groups)" : ""));
-            marker.bindPopup("<h3>" + esc(a.area) + "</h3><ul>" +
-              a.groups.map(function (g) { return "<li>" + groupHtml(g) + "</li>"; }).join("") + "</ul>",
-              { maxWidth: 280 });
+            var kinds = [
+              { kind: "page", groups: a.groups.filter(function (g) { return g.page; }),
+                note: "has a page on this site", notes: "have pages on this site" },
+              { kind: "other", groups: a.groups.filter(function (g) { return !g.page; }),
+                note: "not confirmed as current", notes: "not confirmed as current" }
+            ].filter(function (k) { return k.groups.length; });
+            kinds.forEach(function (k, i) {
+              var n = k.groups.length;
+              var shift = kinds.length === 2 ? (i === 0 ? -9 : 9) : 0;
+              // red pins on top, so they aren't hidden under grey ones
+              var marker = L.marker([a.lat, a.lon], {
+                icon: pin(k.kind, n, shift), zIndexOffset: k.kind === "page" ? 1000 : 0,
+                title: a.area + ": " + n + " group" + (n > 1 ? "s" : "") + ", " + (n > 1 ? k.notes : k.note),
+                alt: a.area, riseOnHover: true
+              }).addTo(map);
+              marker.bindTooltip(esc(a.area) + ": " + n + " group" + (n > 1 ? "s" : "") + ", " + (n > 1 ? k.notes : k.note));
+              marker.bindPopup("<h3>" + esc(a.area) + "</h3><ul>" +
+                k.groups.map(function (g) { return "<li>" + groupHtml(g) + "</li>"; }).join("") + "</ul>",
+                { maxWidth: 300 });
+            });
             bounds.push([a.lat, a.lon]);
           });
           map.fitBounds(bounds, { padding: [24, 24] });

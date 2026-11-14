@@ -22,6 +22,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -157,6 +158,11 @@ def main() -> None:
 
     data = {"areas": sorted(areas.values(), key=lambda a: a["area"]),
             "national": national}
+    # "updated" is the date the group list last changed, not the date this
+    # script last ran: keep the old date if nothing else is different.
+    old = json.loads(OUT.read_text()) if OUT.exists() else {}
+    old_date = old.pop("updated", None)
+    data["updated"] = old_date if old == data and old_date else date.today().isoformat()
     OUT.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
     n = sum(len(a["groups"]) for a in data["areas"])
     print(f"wrote {OUT.relative_to(ROOT)}: {n} groups in {len(data['areas'])} areas, "
