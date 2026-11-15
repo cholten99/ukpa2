@@ -44,7 +44,7 @@ PAGES = {
     "northampton-polyamory-enm.shtml": "Northampton",
     "polyamory-support-group.shtml": "Birmingham",
     "uk-poly-list.shtml": None,
-    "yorkshire-open.shtml": "Yorkshire",
+    "yorkshire-open.shtml": "Leeds",
 }
 SKIP_PAGES = {"index.shtml", "example.shtml"}
 # Pages whose group is named differently in the directory.

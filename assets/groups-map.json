@@ -225,6 +225,10 @@
     {
      "name": "Leeds Polyamory Meetup",
      "url": "https://www.meetup.com/leeds-polyamory-meetup/"
+    },
+    {
+     "name": "Yorkshire O.P.E.N",
+     "page": "/community-pages/yorkshire-open.shtml"
     }
    ]
   },
@@ -555,10 +559,6 @@
     {
      "name": "Yorkshire Polyamory Network",
      "url": "https://www.facebook.com/groups/2073115902970629"
-    },
-    {
-     "name": "Yorkshire O.P.E.N",
-     "page": "/community-pages/yorkshire-open.shtml"
     }
    ]
   }
@@ -595,5 +595,5 @@
    "url": "https://www.facebook.com/groups/692772462343077"
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-15"
 }
