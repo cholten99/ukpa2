@@ -104,7 +104,7 @@
           <h2 class="text-xl font-extrabold pt-6">For community group organisers</h2>
 
           <p>
-            Running a local polyamory or non-monogamy group, or thinking of starting one? These are worth a read.
+            Running a local polyamory or non-monogamy group, or thinking of starting one? These are worth a look.
             Find existing groups on our <a href="/community.shtml" class="underline underline-offset-2 hover:underline-offset-4">Community page</a>.
           </p>
 
@@ -122,8 +122,23 @@
                 <div class="text-sm mt-1">
                   How <a href="/community-pages/yorkshire-open.shtml" class="underline underline-offset-2">Yorkshire O.P.E.N</a>
                   has stayed inclusive and self-supporting since 2012, from Quinn's Polyday 2026 workshop.
-                  Also as a
-                  <a href="https://www.youtube.com/watch?v=tcpqDdNVD8k" target="_blank" rel="noopener noreferrer" class="underline underline-offset-2">video of the talk</a>.
+                </div>
+              </div>
+            </li>
+
+            <li class="flex flex-col gap-2">
+              <a href="https://www.youtube.com/watch?v=tcpqDdNVD8k" target="_blank" rel="noopener noreferrer"
+                 class="group block rounded-lg overflow-hidden bg-white shadow hover:shadow-lg transition
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                <img src="/resources/thumbs/yopen-building-to-last-video.jpg" alt="Still from the Building to Last video: Quinn speaking" loading="lazy"
+                     class="w-full aspect-[1200/630] object-cover group-hover:opacity-90">
+              </a>
+              <div class="text-base leading-snug">
+                <a href="https://www.youtube.com/watch?v=tcpqDdNVD8k" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Building to Last</a>
+                <span class="opacity-70">(video, YouTube)</span>
+                <div class="text-sm mt-1">
+                  Quinn's Polyday 2026 talk on how <a href="/community-pages/yorkshire-open.shtml" class="underline underline-offset-2">Yorkshire O.P.E.N</a>
+                  still thrives after 14 years.
                 </div>
               </div>
             </li>
