@@ -43,7 +43,7 @@ PAGES = {
     "london-poly-pub.shtml": "London",
     "northampton-polyamory-enm.shtml": "Northampton",
     "polyamory-support-group.shtml": "Birmingham",
-    "polystation.shtml": "London",
+    "polystation.shtml": "Dalston",
     "uk-poly-list.shtml": None,
     "yorkshire-open.shtml": "Leeds",
 }
@@ -58,6 +58,7 @@ QUERY = {
     "Sussex": "West Sussex",
     "Yorkshire": "North Yorkshire",
     "Scotland": "Perth, Scotland",
+    "Dalston": "Dalston, London",
 }
 FIXED = {
     # no single OSM area called South Wales: roughly between Swansea and Cardiff

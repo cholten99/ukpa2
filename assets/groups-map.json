@@ -118,6 +118,17 @@
    ]
   },
   {
+   "area": "Dalston",
+   "lat": 51.5432,
+   "lon": -0.076,
+   "groups": [
+    {
+     "name": "Polystation",
+     "page": "/community-pages/polystation.shtml"
+    }
+   ]
+  },
+  {
    "area": "Derby",
    "lat": 52.9142,
    "lon": -1.472,
@@ -289,10 +300,6 @@
     {
      "name": "London Poly Munch",
      "page": "/community-pages/london-poly-munch.shtml"
-    },
-    {
-     "name": "Polystation",
-     "page": "/community-pages/polystation.shtml"
     }
    ]
   },
