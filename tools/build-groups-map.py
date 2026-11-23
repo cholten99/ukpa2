@@ -43,6 +43,7 @@ PAGES = {
     "london-poly-pub.shtml": "London",
     "northampton-polyamory-enm.shtml": "Northampton",
     "polyamory-support-group.shtml": "Birmingham",
+    "polystation.shtml": "London",
     "uk-poly-list.shtml": None,
     "yorkshire-open.shtml": "Leeds",
 }

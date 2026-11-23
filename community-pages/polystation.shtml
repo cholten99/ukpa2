@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17876605291"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17876605291');
+    </script>
+
+    <meta charset="UTF-8" />
+    <title>Polystation – UK Polyamory Association</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+  </head>
+
+  <body class="w-full md:w-4/5 md:mx-auto bg-sky-300 min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+
+      <!-- Header -->
+      <!--#include virtual="/includes/header.html" -->
+
+      <!-- Main -->
+      <main id="main" class="md:col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+
+          <!-- LEFT: Key info -->
+          <section class="p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-4">
+            <h1 class="text-2xl font-extrabold">Polystation</h1>
+
+            <p>
+              "Polystation is a London community about polyamory and non-traditional relationship models. We meet monthly in person
+              to learn, talk and build kinship together. Our focus is learning and community."
+            </p>
+
+            <div class="grid gap-3 mt-1">
+              <a href="https://polystation.org" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-red-400 text-white font-semibold shadow hover:brightness-95
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2">
+                Visit website
+              </a>
+
+              <a href="https://www.outsavvy.com/event/26182/polystation-redefining-relationships" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                Book a meet-up
+              </a>
+
+              <a href="https://www.instagram.com/polystation_ig" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                Instagram
+              </a>
+
+              <a href="mailto:hello@polystation.org?subject=Polystation%20enquiry"
+                 class="inline-flex justify-center px-5 py-3 rounded-xl bg-black/10 font-semibold hover:bg-black/20
+                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600">
+                Email organisers
+              </a>
+            </div>
+
+            <div class="pt-2 border-t border-black/10 space-y-2">
+              <p><strong>Type:</strong> In person (online community in development)</p>
+              <p><strong>Area covered:</strong> London (Dalston venue)</p>
+              <p><strong>Meets:</strong> Last Wednesday of every month, 7pm to 9pm</p>
+              <p><strong>Cost:</strong> Pay what you can, minimum £5</p>
+              <p><strong>Minimum age:</strong> 18+</p>
+              <p><strong>Accessibility:</strong> Step-free access to the first floor</p>
+            </div>
+
+            <p class="text-sm opacity-80">
+              Last updated: November 2026
+            </p>
+          </section>
+
+          <!-- RIGHT: Main content -->
+          <section class="md:col-span-2 p-6 rounded-2xl ukpa-bg-cell shadow flex flex-col gap-6">
+
+            <!-- Banner image -->
+            <img
+              src="/community-pages/images/polystation.jpg"
+              alt="A Polystation breakout group sitting together on the floor, talking"
+              class="rounded-xl w-full h-auto"
+              loading="lazy"
+            >
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">What it's like</h2>
+              <p>
+                Polystation is queer in its origins and its values, and open to everyone. It's one of the most diverse groups you'll find,
+                across gender, age, faith, ethnicity, race and sexuality. The organisers believe we learn most from people whose experiences
+                are different from our own, so everybody is welcome as long as they come with respect and follow the group's guidelines.
+              </p>
+              <p>
+                Flirting isn't what the group is for, but it's part of how people connect. As long as you respect the space and everyone in it,
+                you're welcome to just be human.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">What a session looks like</h2>
+              <ol class="list-decimal pl-6 space-y-1">
+                <li>A check-in and a short grounding moment to arrive and connect.</li>
+                <li>A round of introductions and a question on the session's topic.</li>
+                <li>Breakout groups to discuss it and get to know each other.</li>
+                <li>Back together as a whole group to share what came up.</li>
+                <li>Often a second breakout, then closing thoughts and takeaways from everyone.</li>
+              </ol>
+              <p>
+                It's an engaging format, and people learn a lot from each other.
+              </p>
+              <img
+                src="/community-pages/images/polystation-breakout.jpg"
+                alt="A large Polystation session with small groups sitting in circles on the floor of a hall"
+                class="rounded-xl w-full h-auto mt-2"
+                loading="lazy"
+              >
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Brief history</h2>
+              <p>
+                Polystation began in 2024 as a monthly London meet-up, founded by Angel Perez and Sion Eryl as a place to connect with peers
+                and learn from each other. It has grown into a community of well over a hundred people. The 40-person monthly meet-up regularly
+                sells out, and an online community platform is in development. Polystation also runs sessions at festivals, longer workshops
+                and one-to-one coaching.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">How to join</h2>
+              <p>
+                All meet-up details and tickets are on the
+                <a href="https://www.outsavvy.com/event/26182/polystation-redefining-relationships" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4 font-semibold">OutSavvy listing</a>.
+                Meet-ups often sell out, so it's worth booking early.
+              </p>
+              <p>
+                There's a WhatsApp group for members, but it isn't public: the organisers would rather you come along to a meet-up and
+                become part of the community first. The link is shared there, and members can pass it on to people they know.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Guidelines &amp; support</h2>
+              <p>
+                Polystation has
+                <a href="https://polystation.org/guidelines.html" target="_blank" rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4">ten community guidelines</a>
+                covering respect, curiosity, thought experimentation, non-judgement, fluidity and growth, and inclusivity.
+                It's a space for discussion and learning, not therapy.
+              </p>
+              <p>
+                If anything feels off at an event, talk to a facilitator or email
+                <a href="mailto:hello@polystation.org" class="underline underline-offset-2 hover:underline-offset-4">hello@polystation.org</a>.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Accessibility</h2>
+              <p>
+                There's step-free access to the first floor of The Common Press, and OutSavvy offers a free ticket for an assistant.
+                Get in touch with the organisers if you have specific access needs.
+              </p>
+            </section>
+
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Where it's based</h2>
+              <p>
+                The Common Press, 97 Stoke Newington Road, Dalston, London N16 8BX.
+              </p>
+            </section>
+
+            <!-- Venue map -->
+            <section class="space-y-2">
+              <h2 class="text-xl font-bold">Location</h2>
+              <div class="rounded-xl overflow-hidden ring-1 ring-black/10 aspect-square">
+                <iframe
+                  src="https://www.google.com/maps?q=The+Common+Press,+97+Stoke+Newington+Road,+London+N16+8BX&output=embed"
+                  class="w-full h-full border-0"
+                  loading="lazy"
+                  title="Map showing The Common Press, Dalston"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+              <p>
+                <a href="https://www.google.com/maps?q=The+Common+Press,+97+Stoke+Newington+Road,+London+N16+8BX"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="underline underline-offset-2 hover:underline-offset-4">
+                  Open in Google Maps
+                </a>
+              </p>
+            </section>
+
+          </section>
+
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <!--#include virtual="/includes/footer.html" -->
+
+    </div>
+  </body>
+  </html>

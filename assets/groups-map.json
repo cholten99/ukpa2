@@ -289,6 +289,10 @@
     {
      "name": "London Poly Munch",
      "page": "/community-pages/london-poly-munch.shtml"
+    },
+    {
+     "name": "Polystation",
+     "page": "/community-pages/polystation.shtml"
     }
    ]
   },
@@ -595,5 +599,5 @@
    "url": "https://www.facebook.com/groups/692772462343077"
   }
  ],
- "updated": "2026-11-15"
+ "updated": "2026-11-23"
 }
